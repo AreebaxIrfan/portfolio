@@ -1,0 +1,251 @@
+{
+    "name": "Areeba Irfan",
+    "initials": "AI",
+    "location": "Based in New York, USA 🇺🇸",
+    "locationLink": "https://www.google.com/maps/place/new+york",
+    "about": "Creative Full Stack Developer. Tech Enthusiast. Problem Solver. 💻",
+    "summary": "I specialize in building accessible, user-friendly web applications with 1+ years of tech experience. Passionate about solving real-world problems through code, I focus on creating clean, efficient, and scalable solutions. Currently pursuing education in Computer Science and Artificial Intelligence, while contributing to open-source and participating in coding challenges.",
+    "avatarUrl": "https://placeholder.com/150", 
+    "personalWebsiteUrl": "https://areeba-irfan.dev",
+    "contact": {
+      "email": "contact@areeba-irfan.dev",
+      "social": [
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/areeba-irfan/"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/areeba-irfan"
+        },
+        {
+          "name": "X",
+          "url": "https://x.com/areeba_irfan"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/areeba_irfan/"
+        },
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/areeba.irfan/"
+        },
+        {
+          "name": "Medium",
+          "url": "https://medium.com/@areeba-irfan"
+        }
+      ]
+    },
+    "education": [
+      {
+        "school": "Virtual University",
+        "degree": "Associate Degree in Computer Science",
+        "start": "2025",
+        "end": "Present"
+      },
+      {
+        "school": "GIAIC (Governor's Initiative on Artificial Intelligence and Computing)",
+        "degree": "Artificial Intelligence Program",
+        "start": "2024",
+        "end": "Present"
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Honourable Instructor at Tameer-E-Millat Primary & High School",
+        "by": "By: Tameer-E-Millat Primary & High School",
+        "reference": [
+          {
+            "name": "👉 Reference",
+            "url": "https://x.com/areeba_irfan/status/1741472460837421225"
+          }
+        ]
+      },
+      {
+        "title": "Completed 100 Days of Coding Challenge",
+        "by": "By: Self-Initiated (GIAIC Community)",
+        "reference": [
+          {
+            "name": "👉 Reference",
+            "url": "https://github.com/areeba-irfan/100-days-of-code"
+          }
+        ]
+      },
+      {
+        "title": "Participated in Ramadan Coding Nights",
+        "by": "By: GIAIC Community",
+        "reference": [
+          {
+            "name": "👉 Reference",
+            "url": "https://github.com/areeba-irfan/ramadan-coding-nights"
+          }
+        ]
+      },
+      {
+        "title": "1$ Dollar Win Recognition",
+        "by": "By: Coding Challenge Organizer",
+        "reference": [
+          {
+            "name": "👉 Reference",
+            "url": "#" 
+          }
+        ]
+      },
+      {
+        "title": "Participated in 3+ Hackathons",
+        "by": "By: Various Tech Communities",
+        "reference": [
+          {
+            "name": "👉 Reference",
+            "url": "#" 
+          }
+        ]
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelance",
+        "link": "",
+        "badges": ["Remote", "Part-Time"],
+        "title": "Full Stack Developer",
+        "start": "2024 Jan",
+        "end": "Present",
+        "description": "Working as a freelance Full Stack Developer, building web applications for clients using modern technologies like Next.js, Python, and Tailwind CSS.",
+        "bulletPoints": [
+          {
+            "text": "Developed 40+ projects including e-commerce platforms and AI chatbots",
+            "link": ""
+          },
+          {
+            "text": "Collaborated with clients to deliver responsive and scalable solutions",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "company": "Tameer-E-Millat Primary & High School",
+        "link": "https://x.com/areeba_irfan/status/1712050364823048485",
+        "badges": ["Onsite", "Contract"],
+        "title": "Instructor",
+        "start": "2023 Oct",
+        "end": "2023 Dec",
+        "description": "Taught computer basics and cutting-edge technologies to students, earning the 'Honourable Instructor' award.",
+        "bulletPoints": [
+          {
+            "text": "Designed curriculum for 50+ students focusing on web development and AI basics"
+          },
+          {
+            "text": "Received 'Honourable Instructor' award for impactful teaching"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      "HTML/CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Python",
+      "FastAPI",
+      "API Development",
+      "Full Stack Development",
+      "Tech Teaching",
+      "Content Creation",
+      "Technical Writing"
+    ],
+    "projects": [
+      {
+        "title": "AI Chatbot with Chainlit",
+        "techStack": ["Side Project", "Python", "OpenAI", "Chainlit"],
+        "description": "An interactive chatbot built with OpenAI SDK and Chainlit for a responsive Python-based frontend.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/ai-chatbot-chainlit"
+        }
+      },
+      {
+        "title": "Niky Shoes Website",
+        "techStack": ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
+        "description": "A full-stack e-commerce platform for shoes with Next.js frontend and Sanity CMS for content management.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/niky-shoes-website"
+        }
+      },
+      {
+        "title": "Resume Generator",
+        "techStack": ["Side Project", "Python", "HTML", "CSS"],
+        "description": "A tool for creating professional resumes with customizable templates using Python and web technologies.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/resume-generator"
+        }
+      },
+      {
+        "title": "Blog Website with Comments",
+        "techStack": ["Side Project", "Next.js", "React", "Frontend"],
+        "description": "A Next.js-powered blog platform with commenting functionality and responsive design.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/blog-website"
+        }
+      },
+      {
+        "title": "100 Days of Coding",
+        "techStack": ["GIAIC", "Web Development", "TypeScript"],
+        "description": "Completed a 100-day coding challenge, building a new project each day to enhance skills.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/100-days-of-code"
+        }
+      },
+      {
+        "title": "Ramadan Coding Nights",
+        "techStack": ["GIAIC", "Live Coding", "Python"],
+        "description": "Participated in a 20-day Ramadan coding challenge, building Python mini-projects and sharing knowledge.",
+        "link": {
+          "label": "github.com",
+          "href": "https://github.com/areeba-irfan/ramadan-coding-nights"
+        }
+      }
+    ],
+    "keyHighlights": [
+      {
+        "title": "Experience",
+        "description": "1+ years in tech industry",
+        "icon": "💼"
+      },
+      {
+        "title": "Projects",
+        "description": "40+ projects completed",
+        "icon": "🚀"
+      },
+      {
+        "title": "Hackathons",
+        "description": "Participated in 3+ hackathons",
+        "icon": "🏆"
+      },
+      {
+        "title": "Coding Challenges",
+        "description": "Completed 100 Days of Coding",
+        "icon": "💻"
+      },
+      {
+        "title": "Teaching",
+        "description": "Taught computer basics to 50+ students",
+        "icon": "👩‍🏫"
+      },
+      {
+        "title": "Languages",
+        "description": "English (Professional), Urdu (Native)",
+        "icon": "🗣️"
+      },
+      {
+        "title": "Hobbies",
+        "description": "Coding, Writing, Learning",
+        "icon": "🎓"
+      }
+    ]
+  }

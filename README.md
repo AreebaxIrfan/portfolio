@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Areeba Irfan's Portfolio Website
 
-## Getting Started
+Welcome to my personal portfolio website! I'm Areeba Irfan, a creative Full Stack Developer and tech enthusiast based in Karachi, Pakistan. This website showcases my projects, skills, and achievements as I build accessible, user-friendly web applications and explore AI and Computer Science.
 
-First, run the development server:
+🌐 **[Visit my portfolio](https://areeba-irfan.dev)** | 📧 **Email**: the.areebairfan@gmail.com
 
+## About Me
+
+I'm passionate about solving real-world problems through clean, efficient, and scalable code. With over a year of experience in full-stack development, I specialize in technologies like Next.js, Python, TypeScript, and AI-driven solutions. Currently, I'm pursuing an Associate Degree in Computer Science and an AI program at GIAIC, while contributing to open-source and tackling coding challenges.
+
+## Features
+
+- **Project Showcase**: Explore 30+ projects, including AI-powered tools like MediScan AI Pro, e-commerce platforms like Niky Shoes Website, and interactive applications like Resume Builder.
+- **Skills Overview**: Highlights my expertise in HTML/CSS, JavaScript, TypeScript, React, Next.js, Python, FastAPI, and more.
+- **Achievements**: Displays milestones like completing the 100 Days of Coding Challenge and participating in 3+ hackathons.
+- **Responsive Design**: Built for seamless viewing on desktop and mobile devices.
+- **Contact & Socials**: Connect with me via LinkedIn, GitHub, X, Instagram, Facebook, or Medium.
+
+## Technologies Used
+
+- **Frontend**: Next.js, React, TypeScript, HTML, CSS, Tailwind CSS
+- **Backend**: Python, FastAPI
+- **Tools & APIs**: Streamlit, Google Gemini AI, OpenAI SDK, Sanity CMS
+- **Deployment**: Vercel (assumed for portfolio hosting)
+- **Version Control**: Git, GitHub
+
+## Featured Projects
+
+Here are some highlights from my portfolio:
+
+- **[MediScan AI Pro](https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07)**: An AI-powered medical image diagnostic tool built with Python, Streamlit, and Google Gemini AI.
+- **[Niky Shoes Website](https://github.com/AreebaxIrfan/Nike_Shoes_Ecommerce_Marketplace)**: A full-stack e-commerce platform using Next.js and Sanity CMS.
+- **[Resume Generator](https://github.com/AreebaxIrfan/projects/tree/main/resume_generator)**: A Python-based tool for creating professional resumes with HTML/CSS templates.
+- **[AI Chatbot with Chainlit](https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/Ramadan_Coding_Nights/Day_17_Advance_Agent)**: An interactive chatbot powered by OpenAI SDK and Chainlit.
+
+Check out the [Projects section](https://areeba-irfan.dev) for more!
+
+## Setup (For Developers)
+
+To run this portfolio website locally:
+
+## 1. **Clone the repository**:
 ```bash
+git clone https://github.com/AreebaxIrfan/your-portfolio-repo.git
+cd your-portfolio-repo
+2. Install dependencies:
+bash
+Copy code
+npm install
+3. Run the development server:
+bash
+Copy code
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Note: Replace your-portfolio-repo with the actual repository name if you host this project on GitHub.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🎯 Achievements
+✅ Completed 100 Days of Coding Challenge (Reference)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌙 Participated in Ramadan Coding Nights (Reference)
 
-## Learn More
+🔧 Completed 30 Days 30 Projects Challenge
 
-To learn more about Next.js, take a look at the following resources:
+🚀 Participated in 3+ hackathons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🏅 Earned $1 Dollar Win Recognition by GIAIC
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📬 Contact
+Let's connect! Reach out to me via:
 
-## Deploy on Vercel
+📧 Email: the.areebairfan@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💼 LinkedIn: areebairfan
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💻 GitHub: AreebaxIrfan
+
+🐦 X (Twitter): areebaXirfan
+
+📸 Instagram: areebaxirfan
+
+📘 Facebook: AreebaxIrfan
+
+✍️ Medium: areebaIrfan_
+
+🤝 Contributing
+Interested in contributing?
+Feel free to fork this repository, submit pull requests, or open issues for suggestions and improvements.
+
+📄 License
+This project is licensed under the MIT License.
+
+⭐ Star this repository if you find it inspiring!
+Happy coding!

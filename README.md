@@ -6,11 +6,15 @@ Welcome to my personal portfolio website! I'm Areeba Irfan, a creative Full Stac
 
 ## Technologies Used
 
-- **Frontend**: Next.js, React, TypeScript, HTML, CSS, Tailwind CSS
-- **Backend**: Python, FastAPI
-- **Tools & APIs**: Streamlit, Google Gemini AI, OpenAI SDK, Sanity CMS
-- **Deployment**: Vercel (assumed for portfolio hosting)
-- **Version Control**: Git, GitHub
+- **Frontend**: Next.js 14, React, TypeScript
+- **UI**: Shadcn/UI
+- **Styling**: TailwindCSS
+- **Deployment**: Vercel
+- **Features**:
+  - 🚀 Next.js 14, React, TypeScript, Shadcn/UI, TailwindCSS
+  - 🎨 Auto-generated layout
+  - 📱 Responsive design
+  - ⚡ Fast with Next.js & Vercel
 
 ## Setup (For Developers)
 

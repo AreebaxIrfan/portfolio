@@ -369,6 +369,16 @@ export const RESUME_DATA = {
         href: "https://github.com/AreebaxIrfan/Animated-Project",
       },
     },
+     {
+      title: "Python Projects",
+      techStack: ["Python",  "streamlit"],
+      description:
+        "A functional application with a clean interface, built using streamlit and python",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AreebaxIrfan/Agentic_AI/tree/main/projects",
+      },
+    },
     {
       title: "100 Days of Coding",
       techStack: ["GIAIC", "Web Development", "TypeScript"],

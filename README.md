@@ -39,56 +39,49 @@ Check out the [Projects section](https://areeba-irfan.dev) for more!
 
 To run this portfolio website locally:
 
-## 1. **Clone the repository**:
-```bash
-git clone https://github.com/AreebaxIrfan/your-portfolio-repo.git
-cd your-portfolio-repo
-2. Install dependencies:
-bash
-Copy code
-npm install
-3. Run the development server:
-bash
-Copy code
-npm run dev
-Open http://localhost:3000 in your browser.
+## 🔧 Installation
 
-Note: Replace your-portfolio-repo with the actual repository name if you host this project on GitHub.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AsharibAli/portfolio
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+4. Run the development server:
+   ```bash
+   pnpm run dev
+   ```
 
-🎯 Achievements
-✅ Completed 100 Days of Coding Challenge (Reference)
+## 🌐 Live Demo
 
-🌙 Participated in Ramadan Coding Nights (Reference)
+Check out the [live demo](https://areebaxirfan.vercel.app/) to see it in action!
 
-🔧 Completed 30 Days 30 Projects Challenge
+## 🙌 Contributing
 
-🚀 Participated in 3+ hackathons
+I welcome contributions! Feel free to submit issues or pull requests.
 
-🏅 Earned $1 Dollar Win Recognition by GIAIC
-
-📬 Contact
-Let's connect! Reach out to me via:
+---
+## 📬 Contact
+# Let's connect! Reach out to me via:
 
 📧 Email: the.areebairfan@gmail.com
 
-💼 LinkedIn: areebairfan
+💼 LinkedIn: [areebairfan](http://linkedin.com/feed/areebairfan)
 
-💻 GitHub: AreebaxIrfan
+💻 GitHub: [AreebaxIrfan](http://github.com/areebaxIrfan/)
 
-🐦 X (Twitter): areebaXirfan
+🐦 X (Twitter): [areebaXirfan](https://x.com/areebaXirfan)
 
-📸 Instagram: areebaxirfan
+✍️ Medium: [areebaIrfan](https://medium.com/@areebaxirfan)
 
-📘 Facebook: AreebaxIrfan
-
-✍️ Medium: areebaIrfan_
-
-🤝 Contributing
-Interested in contributing?
-Feel free to fork this repository, submit pull requests, or open issues for suggestions and improvements.
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
 
-⭐ Star this repository if you find it inspiring!
+## ⭐ Star this repository if you find it inspiring!
 Happy coding!

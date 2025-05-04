@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   initials: "AI",
   location: "Based in Karachi, Pakistan pk",
   locationLink: "https://www.google.com/maps/place/new+york",
-  about: "Creative Full Stack Developer. Tech Enthusiast. Problem Solver. 💻",
+  about: "Creative Full Stack Developer. UI and UX Expert. Tech Enthusiast. Problem Solver. 💻",
   summary:
     "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
   avatarUrl: "/areebairfan.png",
@@ -119,29 +119,6 @@ export const RESUME_DATA = {
         },
       ],
     },
-  ],
-  work: [
-    {
-      company: "Freelance",
-      link: "",
-      badges: ["Remote", "Part-Time"],
-      title: "Full Stack Developer",
-      start: "2024 Jan",
-      end: "Present",
-      description:
-        "Working as a freelance Full Stack Developer, building web applications for clients using modern technologies like Next.js, Python, and Tailwind CSS.",
-      bulletPoints: [
-        {
-          text: "Developed 5+ projects including e-commerce platforms and AI chatbots",
-          link: "",
-        },
-        {
-          text: "Collaborated with clients to deliver responsive and scalable solutions",
-          link: "",
-        },
-      ],
-    },
-   
   ],
   skills: [
     "HTML/CSS",
@@ -432,7 +409,7 @@ export const RESUME_DATA = {
       icon: "💻",
     },
     {
-      title: "Helping Class Fellows",
+      title: "Helping Class Fellows In Coding",
       description: "Assisted class fellows with computer basics and related topics",
       icon: "🤝" 
     },

@@ -403,11 +403,7 @@ export const RESUME_DATA = {
       description: "Participated in 3+ hackathons",
       icon: "🏆",
     },
-    {
-      title: "Coding Challenges",
-      description: "Completed 3+ challenges",
-      icon: "💻",
-    },
+    
     {
       title: "Helping Class Fellows In Coding",
       description: "Assisted class fellows with computer basics and related topics",
@@ -415,7 +411,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Languages",
-      description: "English (Professional), Urdu (Native)",
+      description: "English, Urdu",
       icon: "🗣️",
     },
     {

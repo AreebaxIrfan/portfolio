@@ -68,17 +68,18 @@ export function HeroSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-6 sm:mt-8">
           {RESUME_DATA.keyHighlights
             .filter((highlight) =>
-              ["Experience", "Projects", "Hackathons", "Coding Challenges"].includes(highlight.title)
+              ["Experience", "Projects", "Hackathons", "Coding Challenges","Languages","Hobbies"].includes(highlight.title)
             )
             .map((highlight) => (
               <div
                 key={highlight.title}
                 className="bg-teal-100 p-4 rounded-lg text-center transition-all duration-200 hover:shadow-md hover:bg-teal-200"
               >
-                <p className="text-base sm:text-lg font-bold text-teal-700">
-                  {highlight.description.split(" ")[0]}
-                </p>
                 <p className="text-xs sm:text-sm text-gray-600">{highlight.title}</p>
+                <p className="text-base sm:text-lg font-bold text-teal-700">
+                  {highlight.description}
+                </p>
+                
               </div>
             ))}
         </div>

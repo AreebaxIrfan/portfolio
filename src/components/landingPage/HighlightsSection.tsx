@@ -17,7 +17,7 @@ export function HighlightsSection() {
         />
         <CardWithIcon
           icon={Palette}
-          title="1$ Dollar Win"
+          title="1$ Dollar Win (2x)"
           description="Successfully completed a challenging project that earned recognition and a symbolic $1 prize."
         />
       </div>

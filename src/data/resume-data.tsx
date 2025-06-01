@@ -11,13 +11,12 @@ export const RESUME_DATA = {
   name: "Areeba Irfan",
   initials: "AI",
   location: "Based in Karachi, Pakistan pk",
-  // locationLink: "https://www.google.com/maps/place/new+york",
   locationLink: "https://www.google.com/maps/place/pakistan/karachi",
   about: "Creative Full Stack Developer. UI and UX Expert. Tech Enthusiast. Problem Solver. 💻",
   summary:
     "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
   avatarUrl: "/areebairfan.png",
-  personalWebsiteUrl: "https://areeba-irfan.dev",
+  personalWebsiteUrl: "https://areebaxirfan.vercel.app/",
   contact: {
     email: "the.areebairfan@gmail.com",
     social: [
@@ -48,7 +47,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Medium",
-        url: "https://medium.com/@areebaIrfan_",
+        url: "https://medium.com/@areebaxirfan",
         icon: MediumIcon,
       },
     ],

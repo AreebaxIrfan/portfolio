@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
+import Chatbot from "@/components/chatbot"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -48,7 +49,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
-
+                <Chatbot /> 
         {/* Mobile Menu Script */}
         <Script id="mobile-menu-script" strategy="afterInteractive">
           {`

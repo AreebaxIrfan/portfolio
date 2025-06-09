@@ -1,6 +1,4 @@
 "use client";
-
-// import { AreebaAssistant } from "@/components/areeba-assistant";
 import { Header } from "@/components/landingPage/Header";
 import { HeroSection } from "@/components/landingPage/HeroSection";
 import { HighlightsSection } from "@/components/landingPage/HighlightsSection";

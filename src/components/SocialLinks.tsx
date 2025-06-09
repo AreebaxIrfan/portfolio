@@ -1,5 +1,4 @@
 import {
-    GitHubIcon,
     LinkedInIcon,
     XIcon,
     MediumIcon,

@@ -1,10 +1,4 @@
-import {
-    LinkedInIcon,
-    XIcon,
-    MediumIcon,
-    InstagramIcon,
-    FacebookIcon,
-  } from "@/components/icons";
+
   import { RESUME_DATA } from "@/data/resume-data";
   
   export function SocialLinks() {

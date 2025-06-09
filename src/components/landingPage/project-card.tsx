@@ -3,10 +3,7 @@ import { FC } from "react";
 export interface ProjectCardProps {
   title: string;
   description: string;
-  imageSrc: string;
-  imageAlt: string;
   tags: readonly string[];
-  liveUrl: string;
   githubUrl: string;
   projectType: string;
 }

@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import React from 'react';
 import { SocialLinks } from '@/components/SocialLinks';
 import { RESUME_DATA } from '@/data/resume-data';

@@ -1,5 +1,4 @@
 "use client";
-import { Header } from "@/components/landingPage/Header";
 import { HeroSection } from "@/components/landingPage/HeroSection";
 import { HighlightsSection } from "@/components/landingPage/HighlightsSection";
 import { SkillsSection } from "@/components/landingPage/SkillsSection";

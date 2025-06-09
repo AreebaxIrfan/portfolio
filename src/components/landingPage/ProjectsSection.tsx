@@ -85,7 +85,7 @@ export function ProjectsSection() {
                   !tag.toLowerCase().includes("ai")
                 )
                   ? "backend"
-                  : "frontend"} imageSrc={""} imageAlt={""} liveUrl={""}          />
+                  : "frontend"}          />
         ))}
       </div>
     

@@ -65,4 +65,5 @@ I welcome contributions! Feel free to submit issues or pull requests.
 This project is licensed under the MIT License.
 
 ## ⭐ Star this repository if you find it inspiring!
+
 Happy coding!

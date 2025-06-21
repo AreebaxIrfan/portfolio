@@ -7,11 +7,64 @@ import {
   FacebookIcon,
 } from "@/components/icons";
 
-export const RESUME_DATA = {
+// Define Project interface for strict typing
+export interface Project {
+  title: string;
+  techStack: string[]; // Strictly string[]
+  description: string;
+  link: {
+    label: string;
+    href: string;
+  };
+}
+
+// Define the overall ResumeData interface for better type safety
+export interface ResumeData {
+  name: string;
+  initials: string;
+  location: string;
+  locationLink: string;
+  about: string;
+  summary: string;
+  avatarUrl: string;
+  personalWebsiteUrl: string;
+  contact: {
+    email: string;
+    social: Array<{
+      name: string;
+      url: string;
+      icon: React.ComponentType;
+    }>;
+  };
+  education: Array<{
+    school: string;
+    degree: string;
+    start: string;
+    end: string;
+    description: string;
+  }>;
+  achievements: Array<{
+    title: string;
+    by: string;
+    reference: Array<{
+      name: string;
+      url: string;
+    }>;
+  }>;
+  skills: string[];
+  projects: Project[];
+  keyHighlights: Array<{
+    title: string;
+    description: string;
+    icon: string;
+  }>;
+}
+
+export const RESUME_DATA: ResumeData = {
   name: "Areeba Irfan",
   initials: "AI",
-  location: "Based in Karachi, Pakistan pk",
-  locationLink: "https://www.google.com/maps/place/pakistan/karachi",
+  location: "Based in Karachi, Pakistan",
+  locationLink: "https://www.google.com/maps/place/Karachi,+Pakistan",
   about: "Creative Full Stack Developer. UI and UX Expert. Tech Enthusiast. Problem Solver. 💻",
   summary:
     "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
@@ -71,50 +124,50 @@ export const RESUME_DATA = {
   achievements: [
     {
       title: "Completed 30 Days 30 Projects Challenge",
-      by: "By: GIAIC Community",
+      by: "GIAIC Community",
       reference: [
         {
-          name: "👉 Reference",
-          url: "https://github.com/areeba-irfan/100-days-of-code",
+          name: "Reference",
+          url: "https://github.com/AreebaxIrfan/100-days-of-code",
         },
       ],
     },
     {
       title: "Completed 100 Days of Coding Challenge",
-      by: "By:GIAIC Community",
+      by: "GIAIC Community",
       reference: [
         {
-          name: "👉 Reference",
-          url: "https://github.com/areeba-irfan/100-days-of-code",
+          name: "Reference",
+          url: "https://github.com/AreebaxIrfan/100-days-of-code",
         },
       ],
     },
     {
       title: "Participated in Ramadan Coding Nights",
-      by: "By: GIAIC Community",
+      by: "GIAIC Community",
       reference: [
         {
-          name: "👉 Reference",
-          url: "https://github.com/areeba-irfan/ramadan-coding-nights",
+          name: "Reference",
+          url: "https://github.com/AreebaxIrfan/ramadan-coding-nights",
         },
       ],
     },
     {
       title: "1$ Dollar Win Recognition",
-      by: "By: Sir Asharib Ali (Lead Teacher GIAIC)",
+      by: "Sir Asharib Ali (Lead Teacher GIAIC)",
       reference: [
         {
-          name: "👉 Reference",
+          name: "Reference",
           url: "#",
         },
       ],
     },
     {
       title: "Participated in 3+ Hackathons",
-      by: "By: Sir Ameeen Alam (Dean of Faculty GIAIC)",
+      by: "Sir Ameen Alam (Dean of Faculty GIAIC)",
       reference: [
         {
-          name: "👉 Reference",
+          name: "Reference",
           url: "#",
         },
       ],
@@ -126,11 +179,11 @@ export const RESUME_DATA = {
     "TypeScript",
     "React",
     "Next.js",
-    "Tailwind CSS",
+    "TailwindCSS",
     "Python",
     "FastAPI",
     "API Development",
-    "Full Stack Development",
+    "Full-stack Development",
     "Tech Teaching",
     "Content Creation",
     "Technical Writing",
@@ -142,26 +195,27 @@ export const RESUME_DATA = {
       description:
         "An AI-powered medical image diagnostic tool that analyzes images of visible body parts (e.g., eye, skin) to provide disease identification, treatment recommendations, and medication suggestions.",
       link: {
-        label: "github.com",
-        href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07",
       },
     },
-      {
-  "title": "School Website",
-  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI","Sanity","Full Stack"],
-  "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
-  "link": {
-    "label": "GitHub Repository",
-    "href": "https://github.com/AreebaxIrfan/Khadija-School"
-  },
-},
+    {
+      title: "School Website",
+      techStack: ["Side Project", "Next.js", "TailwindCSS", "TypeScript", "Shadcn UI", "Sanity CMS", "Full-stack"],
+      description:
+        "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
+      link: {
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/Khadija-School",
+      },
+    },
     {
       title: "AI Chatbot with Chainlit",
       techStack: ["Side Project", "Python", "OpenAI SDK", "Chainlit"],
       description:
         "An interactive chatbot built with OpenAI SDK and Chainlit, featuring a responsive Python-based frontend for seamless user interaction.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/Ramadan_Coding_Nights/Day_17_Advance_Agent",
       },
     },
@@ -171,7 +225,7 @@ export const RESUME_DATA = {
       description:
         "A chatbot powered by Google's Gemini API, built with Streamlit for a user-friendly interface and efficient conversation handling.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/projects/tree/main/chatbot",
       },
     },
@@ -181,7 +235,7 @@ export const RESUME_DATA = {
       description:
         "A tool for creating professional resumes with customizable templates, using Python for backend logic and HTML/CSS for styling.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/projects/tree/main/resume_generator",
       },
     },
@@ -189,100 +243,100 @@ export const RESUME_DATA = {
       title: "Streamlit Website",
       techStack: ["Side Project", "Python", "Streamlit"],
       description:
-        "A website built with Streamlit, generate a quotes and the daily challenge, interactive interface.",
+        "A website built with Streamlit, featuring quote generation and daily challenges with an interactive interface.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Steamlit-Website",
       },
     },
     {
       title: "Niky Shoes Website",
-      techStack: ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
+      techStack: ["Side Project", "Next.js", "Sanity CMS", "Full-stack"],
       description:
         "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Nike_Shoes_Ecommerce_Marketplace",
       },
     },
     {
       title: "Agentia_World",
-      techStack: ["Side Project", "Next.js", ,"Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI"],
+      techStack: ["Side Project", "Next.js", "TailwindCSS", "TypeScript", "Shadcn UI"], // Fixed comma and removed duplicate
       description:
-        "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
+        "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and dynamic content management.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/agentia_world",
       },
     },
     {
       title: "Niky Dashboard",
-      techStack: ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
+      techStack: ["Side Project", "Next.js", "Sanity CMS", "Full-stack"],
       description:
         "A dashboard for managing the backend and inventory of the Niky Shoes e-commerce platform, built with Next.js and Sanity CMS.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Niky_Dashboard",
       },
     },
     {
       title: "Bouquet E-commerce Website",
-      techStack: ["Side Project", "Next.js", "frontend"],
+      techStack: ["Side Project", "Next.js", "Frontend"],
       description:
         "An e-commerce website for bouquets, featuring a responsive Next.js frontend with a focus on user experience.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/e-commerce",
       },
     },
     {
       title: "Next.js Admin Dashboard",
-      techStack: ["Side Project", "Next.js", "frontend"],
+      techStack: ["Side Project", "Next.js", "Frontend"],
       description:
         "A customizable admin dashboard built with Next.js, designed for efficient data management and visualization.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/next.js-Dashboard",
       },
     },
     {
       title: "Blog Website with Comments",
-      techStack: ["Side Project", "Next.js", "React", "frontend"],
+      techStack: ["Side Project", "Next.js", "React", "Frontend"],
       description:
         "A Next.js-powered blog platform with commenting functionality and a responsive design for seamless user engagement.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/blog-website",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/blog-website",
       },
     },
     {
       title: "Book Hub",
-      techStack: ["Side Project", "Next.js", "API", "frontend"],
+      techStack: ["Side Project", "Next.js", "API", "Frontend"],
       description:
         "A book discovery platform that fetches book data via an API, built with Next.js for a dynamic frontend.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Book-Hub",
       },
     },
     {
       title: "Personal Portfolio",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript", "Frontend"],
       description:
         "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       link: {
-        label: "github.com",
+        label: "Vercel",
         href: "https://areebairfan.vercel.app/",
       },
     },
     {
       title: "Random User Generator",
-      techStack: ["Side Project", "Next.js", "API", "Full Stack"],
+      techStack: ["Side Project", "Next.js", "API", "Full-stack"],
       description:
         "An application that fetches random user data via an API, built with Next.js for a responsive frontend.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/random-user-generator",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/random-user-generator",
       },
     },
     {
@@ -291,77 +345,77 @@ export const RESUME_DATA = {
       description:
         "A simple todo list application for task management, built with HTML, CSS, and JavaScript.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/to-do-list",
       },
     },
     {
       title: "Move Cursor",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript", "Frontend"],
       description:
         "An interactive project that creates dynamic cursor movement effects using HTML, CSS, and JavaScript.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/move-cursor",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/move-cursor",
       },
     },
     {
       title: "Birthday Card",
-      techStack: ["Side Project", "Next.js", "frontend"],
+      techStack: ["Side Project", "Next.js", "Frontend"],
       description:
         "A digital birthday card application with animations, built using Next.js for a modern frontend.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/birthday-card",
       },
     },
     {
       title: "Niky Clone",
-      techStack: ["Side Project", "Next.js", "frontend"],
+      techStack: ["Side Project", "Next.js", "Frontend"],
       description:
         "A clone of the Niky website, replicating its design and functionality using Next.js.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/shoes-website",
       },
     },
     {
       title: "Music Course Website",
-      techStack: ["Side Project", "Next.js", "frontend"],
+      techStack: ["Side Project", "Next.js", "Frontend"],
       description:
-        "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
+        "A website for music courses, featuring a responsive design and interactive elements built with Next.js.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/music-course-web",
       },
     },
     {
       title: "Resume Builder",
-      techStack: ["Side Project", "HTML", "css", "typeScript","frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "TypeScript", "Frontend"],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/resume-builder",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/resume-builder",
       },
     },
     {
       title: "Animated Projects",
-      techStack: ["Side Project", "HTML", "CSS", "typeScript","frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "TypeScript", "Frontend"],
       description:
-        "A functional application with a clean interface, built using HTML, CSS, and TypeScript.",
+        "A collection of animated web projects with a clean interface, built using HTML, CSS, and TypeScript.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Animated-Project",
       },
     },
-     {
+    {
       title: "Python Projects",
-      techStack: ["Python",  "streamlit"],
+      techStack: ["Side Project", "Python", "Streamlit"],
       description:
-        "A functional application with a clean interface, built using streamlit and python",
+        "A collection of Python-based applications with clean interfaces, built using Streamlit and Python.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/Agentic_AI/tree/main/projects",
       },
     },
@@ -371,8 +425,8 @@ export const RESUME_DATA = {
       description:
         "Completed a 100-day coding challenge, building a new project each day to enhance skills.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/100-days-of-code",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/100-days-of-code",
       },
     },
     {
@@ -381,7 +435,7 @@ export const RESUME_DATA = {
       description:
         "Participated in a 20-day Ramadan coding challenge, building Python mini-projects and sharing knowledge.",
       link: {
-        label: "github.com",
+        label: "GitHub",
         href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/Ramadan_Coding_Nights",
       },
     },
@@ -391,8 +445,8 @@ export const RESUME_DATA = {
       description:
         "Completed a 30-day coding challenge, building a new project each day to enhance skills.",
       link: {
-        label: "github.com",
-        href: "https://github.com/areeba-irfan/100-days-of-code",
+        label: "GitHub",
+        href: "https://github.com/AreebaxIrfan/100-days-of-code",
       },
     },
   ],
@@ -412,11 +466,10 @@ export const RESUME_DATA = {
       description: "Participated in 3+ hackathons",
       icon: "🏆",
     },
-    
     {
       title: "Helping Class Fellows In Coding",
       description: "Assisted class fellows with computer basics and related topics",
-      icon: "🤝" 
+      icon: "🤝",
     },
     {
       title: "Languages",
@@ -429,4 +482,4 @@ export const RESUME_DATA = {
       icon: "🎓",
     },
   ],
-} as const; 
+} as const;

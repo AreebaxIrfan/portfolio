@@ -227,7 +227,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Bouquet E-commerce Website",
-      techStack: ["Side Project", "Next.js", "Frontend"],
+      techStack: ["Side Project", "Next.js", "frontend"],
       description:
         "An e-commerce website for bouquets, featuring a responsive Next.js frontend with a focus on user experience.",
       link: {
@@ -237,7 +237,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Next.js Admin Dashboard",
-      techStack: ["Side Project", "Next.js", "Frontend"],
+      techStack: ["Side Project", "Next.js", "frontend"],
       description:
         "A customizable admin dashboard built with Next.js, designed for efficient data management and visualization.",
       link: {
@@ -247,7 +247,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Blog Website with Comments",
-      techStack: ["Side Project", "Next.js", "React", "Frontend"],
+      techStack: ["Side Project", "Next.js", "React", "frontend"],
       description:
         "A Next.js-powered blog platform with commenting functionality and a responsive design for seamless user engagement.",
       link: {
@@ -257,7 +257,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Book Hub",
-      techStack: ["Side Project", "Next.js", "API", "Frontend"],
+      techStack: ["Side Project", "Next.js", "API", "frontend"],
       description:
         "A book discovery platform that fetches book data via an API, built with Next.js for a dynamic frontend.",
       link: {
@@ -267,7 +267,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Personal Portfolio",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "Frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "frontend"],
       description:
         "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       link: {
@@ -297,7 +297,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Move Cursor",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "Frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "frontend"],
       description:
         "An interactive project that creates dynamic cursor movement effects using HTML, CSS, and JavaScript.",
       link: {
@@ -307,7 +307,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Birthday Card",
-      techStack: ["Side Project", "Next.js", "Frontend"],
+      techStack: ["Side Project", "Next.js", "frontend"],
       description:
         "A digital birthday card application with animations, built using Next.js for a modern frontend.",
       link: {
@@ -317,7 +317,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Niky Clone",
-      techStack: ["Side Project", "Next.js", "Frontend"],
+      techStack: ["Side Project", "Next.js", "frontend"],
       description:
         "A clone of the Niky website, replicating its design and functionality using Next.js.",
       link: {
@@ -327,7 +327,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Music Course Website",
-      techStack: ["Side Project", "Next.js", "Frontend"],
+      techStack: ["Side Project", "Next.js", "frontend"],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {
@@ -337,7 +337,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Resume Builder",
-      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend"],
+      techStack: ["Side Project", "HTML", "css", "typeScript","frontend"],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {
@@ -347,7 +347,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Animated Projects",
-      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend"],
+      techStack: ["Side Project", "HTML", "CSS", "typeScript","frontend"],
       description:
         "A functional application with a clean interface, built using HTML, CSS, and TypeScript.",
       link: {

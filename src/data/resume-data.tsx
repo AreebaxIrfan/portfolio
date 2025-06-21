@@ -153,8 +153,8 @@ export const RESUME_DATA = {
   "link": {
     "label": "GitHub Repository",
     "href": "https://github.com/AreebaxIrfan/Khadija-School"
-  }
-}
+  },
+},
     {
       title: "AI Chatbot with Chainlit",
       techStack: ["Side Project", "Python", "OpenAI SDK", "Chainlit"],

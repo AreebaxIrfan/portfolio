@@ -146,6 +146,15 @@ export const RESUME_DATA = {
         href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
       },
     },
+      {
+  "title": "School Website",
+  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI"],
+  "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
+  "link": {
+    "label": "GitHub Repository",
+    "href": "https://github.com/AreebaxIrfan/Khadija-School"
+  }
+}
     {
       title: "AI Chatbot with Chainlit",
       techStack: ["Side Project", "Python", "OpenAI SDK", "Chainlit"],

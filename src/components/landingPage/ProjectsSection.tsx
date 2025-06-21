@@ -1,108 +1,147 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { motion, AnimatePresence } from "framer-motion"; // For animations
 import { SectionHeader } from "@/components/landingPage/section-header";
 import { ProjectCard } from "@/components/landingPage/project-card";
-import { RESUME_DATA } from "@/data/resume-data";
+import { RESUME_DATA, Project } from "@/data/resume-data";
+
+// Utility function to determine project type
+const getProjectType = (techStack: string[]): string => {
+  const techStackLower = techStack
+    .filter((tag): tag is string => typeof tag === "string") // Type guard
+    .map((tag) => tag.toLowerCase());
+
+  if (techStackLower.some((tag) => ["google gemini ai", "openai sdk", "google gemini api"].includes(tag))) {
+    return "ai";
+  }
+  if (
+    techStackLower.some((tag) => ["next.js", "react", "html", "css", "javascript", "typescript"].includes(tag)) &&
+    techStackLower.some((tag) => ["node.js", "mongodb", "sanity cms"].includes(tag))
+  ) {
+    return "fullstack";
+  }
+  if (
+    techStackLower.some((tag) =>
+      ["node.js", "mongodb", "python"].includes(tag) &&
+      !["streamlit", "chainlit"].includes(tag) &&
+      !tag.includes("ai")
+    )
+  ) {
+    return "backend";
+  }
+  return "frontend";
+};
 
 export function ProjectsSection() {
-  const [activeFilter, setActiveFilter] = useState("all");
+  const [activeFilter, setActiveFilter] = useState<string>("all");
 
-  const featuredProjects = RESUME_DATA.projects.filter(
-    (project) => !project.title.includes("Coding")
+  // Memoize featured projects
+  const featuredProjects = useMemo(
+    () => RESUME_DATA.projects.filter((project) => !project.title.includes("Coding")),
+    []
   );
 
-  // Filter projects based on activeFilter
-  const filteredProjects =
-    activeFilter === "all"
-      ? featuredProjects
-      : featuredProjects.filter((project) => {
-          const techStackLower = project.techStack.map((tag) => tag.toLowerCase());
-          if (activeFilter === "frontend") {
-            return techStackLower.some((tag) =>
-              ["next.js", "react", "html", "css", "javascript", "typescript"].includes(tag)
-            );
-          }
-          if (activeFilter === "backend") {
-            return techStackLower.some((tag) =>
-              ["node.js", "mongodb", "python"].includes(tag) &&
-              !tag.includes("streamlit") &&
-              !tag.includes("chainlit") &&
-              !tag.includes("ai")
-            );
-          }
-          if (activeFilter === "ai") {
-            return techStackLower.some((tag) =>
-              ["google gemini ai", "openai sdk", "google gemini api"].includes(tag)
-            );
-          }
-          if (activeFilter === "fullstack") {
-            return (
-              techStackLower.some((tag) =>
-                ["next.js", "react", "html", "css", "javascript", "typescript"].includes(tag)
-              ) &&
-              techStackLower.some((tag) =>
-                ["node.js", "mongodb", "sanity cms"].includes(tag)
-              )
-            );
-          }
-          return false;
-        });
+  // Memoize filtered projects
+  const filteredProjects = useMemo(
+    () =>
+      activeFilter === "all"
+        ? featuredProjects
+        : featuredProjects.filter((project) => getProjectType(project.techStack) === activeFilter),
+    [activeFilter, featuredProjects]
+  );
+
+  // Handle filter button click with accessibility
+  const handleFilterClick = (filter: string) => {
+    setActiveFilter(filter);
+  };
 
   return (
-    <section id="projects" className="py-6 sm:py-8">
-      <SectionHeader badge="Projects" title="Featured Work" />
-      <div className="flex flex-wrap gap-2 mb-4 mt-4">
+    <section id="projects" className="py-8 sm:py-12" aria-labelledby="projects-heading">
+      <SectionHeader badge="Projects" title="Featured Work" id="projects-heading" />
+      <nav className="flex flex-wrap gap-2 mb-6 mt-4" aria-label="Project filters">
         {["all", "frontend", "backend", "ai", "fullstack"].map((filter) => (
           <button
             key={filter}
-            className={`px-3 py-1 text-xs sm:text-sm border rounded-md transition-colors ${
+            className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 ${
               activeFilter === filter
-                ? "bg-teal-100 text-teal-800"
-                : "hover:bg-teal-50"
+                ? "bg-teal-500 text-white shadow-md"
+                : "bg-gray-100 text-gray-700 hover:bg-teal-100 hover:text-teal-800"
             }`}
-            onClick={() => setActiveFilter(filter)}
+            onClick={() => handleFilterClick(filter)}
+            aria-pressed={activeFilter === filter}
+            aria-label={`Filter by ${filter} projects`}
           >
             {filter.charAt(0).toUpperCase() + filter.slice(1)} {filter === "all" ? "Projects" : ""}
           </button>
         ))}
-      </div>
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mt-2 ">
-        {filteredProjects.map((project) => (
-          <ProjectCard
-            key={project.title}
-            title={project.title}
-            description={project.description}
-            tags={project.techStack}
-            githubUrl={project.link.href}
-            projectType={project.techStack.some((tag) => ["Google Gemini AI", "OpenAI SDK", "Google Gemini API"].includes(tag)
-            )
-              ? "ai"
-              : project.techStack.some((tag) => ["Next.js", "React", "HTML", "CSS", "JavaScript", "TypeScript"].includes(tag)
-              ) &&
-                project.techStack.some((tag) => ["Node.js", "MongoDB", "Sanity CMS"].includes(tag))
-                ? "fullstack"
-                : project.techStack.some((tag) => ["Node.js", "MongoDB", "Python"].includes(tag) &&
-                  !["Streamlit", "Chainlit"].includes(tag) &&
-                  !tag.toLowerCase().includes("ai")
-                )
-                  ? "backend"
-                  : "frontend"}          />
-        ))}
-      </div>
-    
-      <div className="mt-7 space-y-3">
-        <h3 className="text-lg sm:text-xl font-bold text-center sm:text-left mb-2">
+      </nav>
+      <AnimatePresence>
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.3 }}
+          role="region"
+          aria-live="polite"
+        >
+          {filteredProjects.length > 0 ? (
+            filteredProjects.map((project) => (
+              <motion.div
+                key={project.title}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.3 }}
+              >
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  tags={project.techStack}
+                  githubUrl={project.link.href}
+                  projectType={getProjectType(project.techStack)}
+                />
+              </motion.div>
+            ))
+          ) : (
+            <motion.div
+              className="col-span-full text-center text-gray-600 py-8 text-sm sm:text-base"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            >
+              No projects found for this filter.
+            </motion.div>
+          )}
+        </motion.div>
+      </AnimatePresence>
+
+      <div className="mt-10 space-y-4" aria-labelledby="coding-challenges-heading">
+        <h3
+          id="coding-challenges-heading"
+          className="text-xl sm:text-2xl font-bold text-center sm:text-left"
+        >
           Coding Challenges
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+        >
           {RESUME_DATA.projects
             .filter((project) => project.title.includes("Coding"))
             .map((project) => (
-              <div
+              <motion.div
                 key={project.title}
-                className="bg-teal-50 border border-teal-200 rounded-lg p-3 hover:shadow-md transition-shadow"
+                className="bg-teal-50 border border-teal-200 rounded-lg p-4 hover:shadow-lg transition-shadow duration-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
+                tabIndex={0}
+                role="article"
               >
-                <div className="flex items-center gap-2">
-                  <div className="h-6 w-6 rounded-full bg-teal-100 flex items-center justify-center">
+                <div className="flex items-center gap-3">
+                  <div className="h-8 w-8 rounded-full bg-teal-100 flex items-center justify-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -113,7 +152,8 @@ export function ProjectsSection() {
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className="h-3 w-3"
+                      className="h-4 w-4 text-teal-600"
+                      aria-hidden="true"
                     >
                       {project.title.includes("100 Days") ? (
                         <>
@@ -132,13 +172,13 @@ export function ProjectsSection() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-xs sm:text-sm font-bold">{project.title}</h4>
-                    <p className="text-xs text-gray-500 line-clamp-2">{project.description}</p>
+                    <h4 className="text-sm sm:text-base font-semibold text-gray-800">{project.title}</h4>
+                    <p className="text-xs sm:text-sm text-gray-600 line-clamp-2">{project.description}</p>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

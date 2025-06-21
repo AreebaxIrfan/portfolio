@@ -148,7 +148,7 @@ export const RESUME_DATA = {
     },
       {
   "title": "School Website",
-  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI"],
+  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "Full Stack","Sanity"],
   "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
   "link": {
     "label": "GitHub Repository",
@@ -207,7 +207,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Agentia_World",
-      techStack: ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
+      techStack: ["Side Project", "Next.js", ,"Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI"],
       description:
         "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
       link: {
@@ -267,7 +267,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Personal Portfolio",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "Frontend"],
       description:
         "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       link: {
@@ -277,7 +277,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Random User Generator",
-      techStack: ["Side Project", "Next.js", "API", "Frontend"],
+      techStack: ["Side Project", "Next.js", "API", "Full Stack"],
       description:
         "An application that fetches random user data via an API, built with Next.js for a responsive frontend.",
       link: {
@@ -297,7 +297,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Move Cursor",
-      techStack: ["Side Project", "HTML", "CSS", "JavaScript"],
+      techStack: ["Side Project", "HTML", "CSS", "JavaScript" , "Frontend"],
       description:
         "An interactive project that creates dynamic cursor movement effects using HTML, CSS, and JavaScript.",
       link: {
@@ -337,7 +337,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Resume Builder",
-      techStack: ["Side Project", "HTML", "CSS", "TypeScript"],
+      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {
@@ -347,7 +347,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Animated Projects",
-      techStack: ["Side Project", "HTML", "CSS", "TypeScript"],
+      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend"],
       description:
         "A functional application with a clean interface, built using HTML, CSS, and TypeScript.",
       link: {

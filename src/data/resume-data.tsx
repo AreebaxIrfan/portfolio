@@ -148,7 +148,7 @@ export const RESUME_DATA = {
     },
       {
   "title": "School Website",
-  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "Full Stack","Sanity"],
+  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI","Sanity","Full Stack"],
   "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
   "link": {
     "label": "GitHub Repository",

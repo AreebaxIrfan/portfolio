@@ -337,7 +337,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Resume Builder",
-      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend],
+      techStack: ["Side Project", "HTML", "CSS", "TypeScript","Frontend"],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {

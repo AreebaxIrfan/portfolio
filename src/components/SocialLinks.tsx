@@ -14,6 +14,7 @@ export function SocialLinks() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            {/* @ts-expect-error: Icon component may not accept className prop */}
             <Icon className="h-5 w-5 text-teal-500" aria-hidden="true" />
           </a>
         );

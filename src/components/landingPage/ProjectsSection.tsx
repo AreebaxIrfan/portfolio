@@ -56,7 +56,7 @@ export function ProjectsSection() {
 
   return (
     <section id="projects" className="py-8 sm:py-12" aria-labelledby="projects-heading">
-      <SectionHeader badge="Projects" title="Featured Work" id="projects-heading" />
+      <SectionHeader badge="Projects" title="Featured Work" />
       <nav className="flex flex-wrap gap-2 mb-6 mt-4" aria-label="Project filters">
         {["all", "frontend", "backend", "ai", "fullstack"].map((filter) => (
           <button

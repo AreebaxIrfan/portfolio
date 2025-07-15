@@ -195,8 +195,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "An AI-powered medical image diagnostic tool that analyzes images of visible body parts (e.g., eye, skin) to provide disease identification, treatment recommendations, and medication suggestions.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07",
+        label: "Website Link",
+        href: "https://mediscan-ai-pro.streamlit.app/",
       },
     },
     {
@@ -205,8 +205,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/Khadija-School",
+        label: "Website Link",
+        href: "https://khadija-school.vercel.app/",
       },
     },
     {
@@ -245,8 +245,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A website built with Streamlit, featuring quote generation and daily challenges with an interactive interface.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/Steamlit-Website",
+        label: "Website Link",
+        href: "https://growth-mindset-companion.streamlit.app/",
       },
     },
     {
@@ -255,8 +255,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/Nike_Shoes_Ecommerce_Marketplace",
+        label: "Website Link",
+        href: "https://nike-shoes-ecommerce-marketplace.vercel.app/",
       },
     },
     {
@@ -265,8 +265,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and dynamic content management.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/agentia_world",
+        label: "Website Link",
+        href: "https://agentia-world-chi.vercel.app/",
       },
     },
     {
@@ -285,8 +285,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "An e-commerce website for bouquets, featuring a responsive Next.js frontend with a focus on user experience.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/e-commerce",
+        label: "Website Link",
+        href: "https://boquate-websitexyz.vercel.app/",
       },
     },
     {
@@ -305,8 +305,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A Next.js-powered blog platform with commenting functionality and a responsive design for seamless user engagement.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/blog-website",
+        label: "Website Link",
+        href: "https://blog-website-khaki-eight.vercel.app/",
       },
     },
     {
@@ -356,7 +356,7 @@ export const RESUME_DATA: ResumeData = {
         "An interactive project that creates dynamic cursor movement effects using HTML, CSS, and JavaScript.",
       link: {
         label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/move-cursor",
+        href: "https://github.com/AreebaxIrfan/Cursor-Move-Project",
       },
     },
     {
@@ -385,8 +385,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "A website for music courses, featuring a responsive design and interactive elements built with Next.js.",
       link: {
-        label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/music-course-web",
+        label: "Website Link",
+        href: "https://music-course-web.vercel.app/",
       },
     },
     {

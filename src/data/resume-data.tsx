@@ -195,8 +195,8 @@ export const RESUME_DATA: ResumeData = {
       description:
         "An AI-powered medical image diagnostic tool that analyzes images of visible body parts (e.g., eye, skin) to provide disease identification, treatment recommendations, and medication suggestions.",
       link: {
-        label: "Website Link",
-        href: "https://mediscan-ai-pro.streamlit.app/",
+        label: "Github",
+        href: "https://github.com/areebaxirfan/giaic_q3/blob/main/%F0%9F%93%82Class_Assignment/assignment_07/app.py",
       },
     },
     {

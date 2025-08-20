@@ -390,13 +390,13 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "Resume Builder",
+      title: "Resume/CV Builder",
       techStack: ["Side Project", "HTML", "CSS", "TypeScript", "Frontend"],
       description:
         "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
       link: {
         label: "GitHub",
-        href: "https://github.com/AreebaxIrfan/resume-builder",
+        href: "https://resume-builderxyz.vercel.app/",
       },
     },
     {

@@ -2,7 +2,6 @@
 
 Welcome to my personal portfolio website! I'm Areeba Irfan, a creative Full Stack Developer and tech enthusiast based in Karachi, Pakistan. This website showcases my projects, skills, and achievements as I build accessible, user-friendly web applications and explore AI and Computer Science.
 
-
 🌐 **[Visit my portfolio](https://areebaxirfan.vercel.app/)** | 📧 **Email**: the.areebairfan@gmail.com
 
 ## Technologies Used

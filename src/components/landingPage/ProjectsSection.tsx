@@ -9,7 +9,6 @@ const getProjectType = (techStack: string[]): string => {
   const techStackLower = techStack
     .filter((tag): tag is string => typeof tag === "string") // Type guard
     .map((tag) => tag.toLowerCase());
-
   if (techStackLower.some((tag) => ["google gemini ai", "openai sdk", "google gemini api"].includes(tag))) {
     return "ai";
   }
@@ -114,7 +113,6 @@ export function ProjectsSection() {
           )}
         </motion.div>
       </AnimatePresence>
-
       <div className="mt-10 space-y-4" aria-labelledby="coding-challenges-heading">
         <h3
           id="coding-challenges-heading"

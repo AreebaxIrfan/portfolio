@@ -43,6 +43,13 @@ export interface ResumeData {
     end: string;
     description: string;
   }>;
+  experience: Array<{
+    company: string;
+    role: string;
+    start: string;
+    end: string;
+    description: string;
+  }>;
   achievements: Array<{
     title: string;
     by: string;
@@ -121,6 +128,29 @@ export const RESUME_DATA: ResumeData = {
       description: "Enrolled in a specialized AI training program, learning advanced concepts in artificial intelligence and machine learning.",
     },
   ],
+  experience: [
+    {
+      company: "Glove",
+      role: "Founder & Developer",
+      start: "2025",
+      end: "Present",
+      description: "Developed an AI-based skin and eye scanner MVP that analyzes images to detect issues and recommend products. Built with Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, and auth. Focused on MVP launch, user feedback, and iteration.",
+    },
+    {
+      company: "HireX",
+      role: "Founder & Developer",
+      start: "2025",
+      end: "Present",
+      description: "Created an AI-powered resume analyzer MVP (experiment) that evaluates CVs and provides recommendations. Tech: Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, auth. Launched in 7 days; learned from no paid users in 30 days – validate demand first, fast launches > perfect code, unlocked Stripe + AI skills.",
+    },
+    {
+      company: "Mindvex",
+      role: "Founder & Developer",
+      start: "2025",
+      end: "Present",
+      description: "Built an AI study assistant MVP for summaries, key points, and quizzes. Used Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, and auth. Emphasized quick prototyping and user-centric features.",
+    },
+  ],
   achievements: [
     {
       title: "Completed 30 Days 30 Projects Challenge",
@@ -190,35 +220,35 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
-    title: "Mindvex",
-    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    description:
-      "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
-    link: {
-      label: "Vercel",
-      href: "https://mindvex.vercel.app/"
-    }
-  },
-  {
-    title: "Hirex",
-    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    description:
-      "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
-    link: {
-      label: "vercel",
-      href: "https://hire-x-mvp.vercel.app/"
-    }
-  },
-  {
-    title: "Glove",
-    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    description:
-      "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
-    link: {
-      label: "vercel",
-      href: "https://glowve.vercel.app/"
-    }
-  },
+      title: "Mindvex",
+      techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      description:
+        "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
+      link: {
+        label: "Vercel",
+        href: "https://mindvex.vercel.app/"
+      }
+    },
+    {
+      title: "HireX – AI Resume Scanner (MVP Experiment)",
+      techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      description:
+        "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers. Built in 7 days; launched with Stripe payments and AI parsing. No paid users in 30 days – learned to validate demand before coding, fast launches over perfect code, and unlocked real Stripe + AI skills.",
+      link: {
+        label: "vercel",
+        href: "https://hire-x-mvp.vercel.app/"
+      }
+    },
+    {
+      title: "Glove",
+      techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      description:
+        "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
+      link: {
+        label: "vercel",
+        href: "https://glowve.vercel.app/"
+      }
+    },
     {
       title: "MediScan AI Pro",
       techStack: ["Side Project", "Python", "Streamlit", "Google Gemini AI"],
@@ -513,4 +543,3 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
 } as const;
-

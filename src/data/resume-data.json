@@ -2,7 +2,7 @@
   "name": "Areeba Irfan",
   "initials": "AI",
   "location": "Based in Karachi, Pakistan pk",
-  "locationLink":"https://www.google.com/maps/place/pakistan/karachi",
+  "locationLink": "https://www.google.com/maps/place/pakistan/karachi",
   "about": "Creative Full Stack Developer. Tech Enthusiast.UI and UX Expert . Problem Solver. 💻",
   "summary": "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
   "avatarUrl": "/areebairfan.png",
@@ -50,6 +50,29 @@
       "start": "2024",
       "end": "Present",
       "description": "Enrolled in a specialized AI training program, learning advanced concepts in artificial intelligence and machine learning."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Mindvex",
+      "position": "UI/UX Engineer",
+      "start": "Jan 2024",
+      "end": "Present",
+      "description": "Designed component libraries, improved accessibility, and collaborated on user-centric designs for web applications."
+    },
+    {
+      "company": "Hirex",
+      "position": "Full Stack Developer",
+      "start": "Jul 2023",
+      "end": "Dec 2023",
+      "description": "Developed RESTful APIs, managed databases, and deployed applications on cloud platforms like AWS."
+    },
+    {
+      "company": "Glove",
+      "position": "Frontend Developer",
+      "start": "Jan 2023",
+      "end": "Jun 2023",
+      "description": "Built responsive user interfaces using React and TypeScript, focusing on performance optimization and user experience."
     }
   ],
   "achievements": [
@@ -129,15 +152,15 @@
         "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
       }
     },
-     {
-  "title": "School Website",
-  "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "sanity","Full Stack"],
-  "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
-  "link": {
-    "label": "GitHub Repository",
-    "href": "https://github.com/AreebaxIrfan/Khadija-School"
-  }
-},
+    {
+      "title": "School Website",
+      "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "sanity","Full Stack"],
+      "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
+      "link": {
+        "label": "GitHub Repository",
+        "href": "https://github.com/AreebaxIrfan/Khadija-School"
+      }
+    },
     {
       "title": "AI Chatbot with Chainlit",
       "techStack": ["Side Project", "Python", "OpenAI SDK", "Chainlit"],

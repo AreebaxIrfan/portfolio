@@ -143,6 +143,33 @@
     "Technical Writing"
   ],
   "projects": [
+        {
+    "title": "Mindvex",
+    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    "description": "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+    }
+  },
+  {
+    "title": "Hirex",
+    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    "description": "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+    }
+  },
+  {
+    "title": "Glove",
+    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    "description": "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
+    "link": {
+      "label": "github.com",
+      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+    }
+  },
     {
       "title": "MediScan AI Pro",
       "techStack": ["Side Project", "Python", "Streamlit", "Google Gemini AI"],
@@ -411,3 +438,4 @@
     }
   ]
 }
+

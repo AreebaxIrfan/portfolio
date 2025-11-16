@@ -190,6 +190,36 @@ export const RESUME_DATA: ResumeData = {
   ],
   projects: [
     {
+    title: "Mindvex",
+    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    description:
+      "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
+    link: {
+      label: "Vercel",
+      href: "https://mindvex.vercel.app/"
+    }
+  },
+  {
+    title: "Hirex",
+    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    description:
+      "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
+    link: {
+      label: "vercel",
+      href: "https://hire-x-mvp.vercel.app/"
+    }
+  },
+  {
+    title: "Glove",
+    techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+    description:
+      "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
+    link: {
+      label: "vercel",
+      href: "https://glowve.vercel.app/"
+    }
+  },
+    {
       title: "MediScan AI Pro",
       techStack: ["Side Project", "Python", "Streamlit", "Google Gemini AI"],
       description:
@@ -483,3 +513,4 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
 } as const;
+

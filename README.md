@@ -4,41 +4,6 @@ Welcome to my personal portfolio website! I'm Areeba Irfan, a creative Full Stac
 
 🌐 **[Visit my portfolio](https://areebaxirfan.vercel.app/)** | 📧 **Email**: the.areebairfan@gmail.com
 
-## Technologies Used
-
-- **Frontend**: Next.js 14, React, TypeScript
-- **UI**: Shadcn/UI
-- **Styling**: TailwindCSS
-- **Deployment**: Vercel
-- **Features**:
-  - 🚀 Next.js 14, React, TypeScript, Shadcn/UI, TailwindCSS
-  - 🎨 Auto-generated layout
-  - 📱 Responsive design
-  - ⚡ Fast with Next.js & Vercel
-
-## Setup (For Developers)
-
-To run this portfolio website locally:
-
-## 🔧 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AreebaxIrfan/portfolio.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd portfolio
-   ```
-3. Install dependencies:
-   ```bash
-   pnpm install
-   ```
-4. Run the development server:
-   ```bash
-   pnpm run dev
-   ```
-
 ## 🌐 Live Demo
 
 Check out the [live demo](https://areebaxirfan.vercel.app/) to see it in action!

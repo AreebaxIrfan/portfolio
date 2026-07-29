@@ -17,9 +17,11 @@ export function HeroSection() {
           </Badge>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-blue-600">
             Hi, I'm {RESUME_DATA.name}
+            
             <br />
+            Building AI-powered SaaS products that solve real business problems.
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-600 to-cyan-500">
-              Full Stack Developer
+              Full-Stack Developer | AI Engineer | Founder
             </span>
           </h1>
           {/* Social Links */}

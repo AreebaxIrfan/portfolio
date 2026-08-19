@@ -10,39 +10,44 @@ export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setIsMobileMenuOpen((open) => !open);
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-white/95 backdrop-blur">
-      <div className="container mx-auto px-4 flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-gray-200 flex items-center justify-center">
-            <span className="font-medium text-sm">{RESUME_DATA.initials}</span>
+    <header className="sticky top-0 z-40 w-full border-b border-slate-200/80 bg-white/85 backdrop-blur-xl">
+      <div className="container mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center gap-3">
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-teal-500 to-cyan-500 text-sm font-semibold text-white shadow-sm">
+            {RESUME_DATA.initials}
           </div>
-          <span className="font-medium">{RESUME_DATA.name}</span>
+          <span className="text-sm font-semibold tracking-wide text-slate-800">{RESUME_DATA.name}</span>
         </div>
-        <nav className="hidden md:flex items-center gap-6">
-          <Link href="#about" className="text-sm font-medium hover:text-teal-500 transition-colors">
-            About
-          </Link>
-          <Link href="#skills" className="text-sm font-medium hover:text-teal-500 transition-colors">
-            Skills
-          </Link>
-          <Link href="#education" className="text-sm font-medium hover:text-teal-500 transition-colors">
-            Education
-          </Link>
-          <Link href="#projects" className="text-sm font-medium hover:text-teal-500 transition-colors">
-            Projects
-          </Link>
-          <Link href="#contact" className="text-sm font-medium hover:text-teal-500 transition-colors">
-            Contact
-          </Link>
+
+        <nav className="hidden items-center gap-6 md:flex">
+          {[
+            ["About", "#about"],
+            ["Skills", "#skills"],
+            ["Education", "#education"],
+            ["Projects", "#projects"],
+            ["Contact", "#contact"],
+          ].map(([label, href]) => (
+            <Link
+              key={label}
+              href={href}
+              className="text-sm font-medium text-slate-600 transition-colors hover:text-teal-600"
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
-        <Button variant="outline" size="sm" className="hidden md:flex gap-2">
-          <Download className="h-4 w-4" />
-          Resume
+
+        <Button asChild variant="outline" size="sm" className="hidden gap-2 md:inline-flex">
+          <Link href="#contact">
+            <Download className="h-4 w-4" />
+            Resume
+          </Link>
         </Button>
+
         <Button
           variant="ghost"
           size="sm"
@@ -70,28 +75,29 @@ export function Header() {
         </Button>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div id="mobile-menu" className="md:hidden bg-white border-b">
-          <div className="container mx-auto px-4 py-3 space-y-3">
-            <Link href="#about" className="block text-sm font-medium hover:text-teal-500 transition-colors py-2">
-              About
-            </Link>
-            <Link href="#skills" className="block text-sm font-medium hover:text-teal-500 transition-colors py-2">
-              Skills
-            </Link>
-            <Link href="#education" className="block text-sm font-medium hover:text-teal-500 transition-colors py-2">
-              Education
-            </Link>
-            <Link href="#projects" className="block text-sm font-medium hover:text-teal-500 transition-colors py-2">
-              Projects
-            </Link>
-            <Link href="#contact" className="block text-sm font-medium hover:text-teal-500 transition-colors py-2">
-              Contact
-            </Link>
-            <Button variant="outline" size="sm" className="w-full justify-center gap-2 mt-2">
-              <Download className="h-4 w-4" />
-              Resume
+        <div id="mobile-menu" className="border-t border-slate-200 bg-white md:hidden">
+          <div className="container mx-auto max-w-6xl space-y-2 px-4 py-3 sm:px-6">
+            {[
+              ["About", "#about"],
+              ["Skills", "#skills"],
+              ["Education", "#education"],
+              ["Projects", "#projects"],
+              ["Contact", "#contact"],
+            ].map(([label, href]) => (
+              <Link
+                key={label}
+                href={href}
+                className="block rounded-md px-2 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50 hover:text-teal-600"
+              >
+                {label}
+              </Link>
+            ))}
+            <Button asChild variant="outline" size="sm" className="mt-2 w-full justify-center gap-2">
+              <Link href="#contact">
+                <Download className="h-4 w-4" />
+                Resume
+              </Link>
             </Button>
           </div>
         </div>

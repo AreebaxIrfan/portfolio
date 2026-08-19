@@ -53,6 +53,7 @@ export interface ResumeData {
   achievements: Array<{
     title: string;
     by: string;
+    description: string;
     reference: Array<{
       name: string;
       url: string;
@@ -72,9 +73,9 @@ export const RESUME_DATA: ResumeData = {
   initials: "AI",
   location: "Based in Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/Karachi,+Pakistan",
-  about: "Creative Full Stack Developer. UI and UX Expert. Tech Enthusiast. Problem Solver. 💻",
+  about: "Full-stack. Backend. AI automation.",
   summary:
-    "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
+    "I build systems that think. Full-stack and backend developer with 3+ years of experience, specializing in Python and AI automation — turning complex problems into clean, scalable, production-grade solutions. Currently sharpening my edge in Computer Science and AI, and actively contributing to open-source.",
   avatarUrl: "/areebairfan.png",
   personalWebsiteUrl: "https://areebaxirfan.vercel.app/",
   contact: {
@@ -155,6 +156,7 @@ export const RESUME_DATA: ResumeData = {
     {
       title: "Completed 30 Days 30 Projects Challenge",
       by: "GIAIC Community",
+      description: "Successfully completed a 30-day coding challenge, building a new project each day to enhance skills.",
       reference: [
         {
           name: "Reference",
@@ -189,6 +191,16 @@ export const RESUME_DATA: ResumeData = {
         {
           name: "Reference",
           url: "#",
+        },
+      ],
+      },
+    {
+      title: "Startup Challenge",
+      by: "Sir Asharib Ali (Lead Teacher GIAIC)",
+      reference: [
+        {
+          name: "Reference",
+          url: "https://hire-x-mvp.vercel.app/",
         },
       ],
     },
@@ -513,7 +525,7 @@ export const RESUME_DATA: ResumeData = {
   keyHighlights: [
     {
       title: "Experience",
-      description: "1+ years in tech industry",
+      description: "3+ years in tech industry",
       icon: "💼",
     },
     {

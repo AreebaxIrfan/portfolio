@@ -7,30 +7,24 @@ export function SkillsSection() {
   return (
     <section id="skills" className="space-y-6">
       <SectionHeader badge="Skills" title="My Expertise" />
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <SkillCard
           icon={Code}
           title="Frontend Development"
-          description="Creating responsive, accessible, and performant user interfaces with modern frameworks."
-          skills={RESUME_DATA.skills.filter((skill) =>
-            ["HTML/CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS"].includes(skill)
-          )}
+          description="Creating responsive, accessible, and polished interfaces with modern frameworks."
+          skills={["HTML/CSS", "JavaScript", "TypeScript", "React", "Next.js", "TailwindCSS"]}
         />
         <SkillCard
           icon={FileText}
           title="Backend Development"
           description="Building robust, scalable, and secure server-side applications and APIs."
-          skills={RESUME_DATA.skills.filter((skill) =>
-            ["Python", "FastAPI", "API Development", "Full Stack Development"].includes(skill)
-          )}
+          skills={["Python", "FastAPI", "API Development", "Full-stack Development"]}
         />
         <SkillCard
           icon={Palette}
           title="Content Creation"
-          description="Creating engaging technical content and teaching complex concepts in accessible ways."
-          skills={RESUME_DATA.skills.filter((skill) =>
-            ["Tech Teaching", "Content Creation", "Technical Writing"].includes(skill)
-          )}
+          description="Turning technical ideas into helpful, clear, and engaging experiences."
+          skills={["Tech Teaching", "Content Creation", "Technical Writing"]}
         />
       </div>
     </section>

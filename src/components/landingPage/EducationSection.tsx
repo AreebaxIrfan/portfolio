@@ -12,7 +12,8 @@ export function EducationSection() {
             key={edu.degree}
             date={`${edu.start} - ${edu.end}`}
             title={edu.degree}
-            institution={edu.school} description={""}            // description={edu.description || ""}
+            institution={edu.school}
+            description={edu.description || ""}
           />
         ))}
       </div>

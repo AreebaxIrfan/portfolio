@@ -9,19 +9,18 @@ interface TimelineItemProps {
 
 export function TimelineItem({ date, title, institution, description }: TimelineItemProps) {
   return (
-    <div className="relative border-l border-gray-200 pl-4 pb-4">
-      <div className="absolute left-0 top-0 flex items-center justify-center -translate-x-1/2 bg-white">
-        <div className="h-3 w-3 rounded-full bg-teal-400"></div>
+    <div className="relative rounded-2xl border border-slate-200 bg-white/80 p-5 pl-6 shadow-sm shadow-slate-100">
+      <div className="absolute left-0 top-6 flex -translate-x-1/2 items-center justify-center rounded-full bg-white p-1 shadow-sm">
+        <div className="h-3 w-3 rounded-full bg-teal-500"></div>
       </div>
-      <div className="space-y-1">
-        <div className="flex items-center gap-2">
-          <Badge variant="outline" className="text-xs">
-            {date}
-          </Badge>
-        </div>
-        <h3 className="text-lg font-bold">{title}</h3>
-        <p className="text-gray-500 text-sm">{institution}</p>
-        <p className="text-xs text-gray-500">{description}</p>
+
+      <div className="space-y-2 pl-4">
+        <Badge variant="outline" className="text-xs text-slate-600">
+          {date}
+        </Badge>
+        <h3 className="text-lg font-bold text-slate-900">{title}</h3>
+        <p className="text-sm text-slate-600">{institution}</p>
+        {description ? <p className="text-sm leading-6 text-slate-500">{description}</p> : null}
       </div>
     </div>
   )

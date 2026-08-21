@@ -128,6 +128,13 @@ export const RESUME_DATA: ResumeData = {
       end: "Present",
       description: "Enrolled in a specialized AI training program, learning advanced concepts in artificial intelligence and machine learning.",
     },
+    {
+      school: "Government Degree College for Women",
+      degree: "Intermediate in Pre Medical",
+      start: "2022",
+      end: "2024",
+      description: "Completed intermediate education with a focus on pre-medical studies, gaining foundational knowledge in science",
+    },
   ],
   experience: [
     {
@@ -166,6 +173,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Completed 100 Days of Coding Challenge",
+      description: "Successfully completed a 100-day coding challenge, building a new project each day to enhance skills.",
       by: "GIAIC Community",
       reference: [
         {
@@ -176,6 +184,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Participated in Ramadan Coding Nights",
+      description: "Participated in a 20-day Ramadan coding challenge, building Python mini-projects and sharing knowledge.",
       by: "GIAIC Community",
       reference: [
         {
@@ -186,6 +195,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "1$ Dollar Win Recognition",
+      description: "Successfully completed a challenging project that earned recognition and a symbolic $1 prize.",
       by: "Sir Asharib Ali (Lead Teacher GIAIC)",
       reference: [
         {
@@ -196,6 +206,7 @@ export const RESUME_DATA: ResumeData = {
       },
     {
       title: "Startup Challenge",
+      description: "Participated in the Startup Challenge",
       by: "Sir Asharib Ali (Lead Teacher GIAIC)",
       reference: [
         {
@@ -206,7 +217,9 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Participated in 3+ Hackathons",
+      description: "Participated in multiple hackathons, showcasing skills in coding, problem-solving",
       by: "Sir Ameen Alam (Dean of Faculty GIAIC)",
+
       reference: [
         {
           name: "Reference",
@@ -231,6 +244,36 @@ export const RESUME_DATA: ResumeData = {
     "Technical Writing",
   ],
   projects: [
+    {
+      title: "Agents SDK Learning",
+      techStack: ["Side Project", "OpenAI Agents SDK", "Python", "TypeScript", "Agentic AI", "OpenAI"],
+      description:
+        "A comprehensive learning repository for OpenAI's Agents SDK featuring multiple agent implementations: 00.Components (reusable agent components), 01.Prep (preparation exercises), agent-clone, context-agent, lifecycle_agent, new_agent, one_agent. Covers agent patterns, context management, lifecycle hooks, and multi-agent orchestration.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AreebaxIrfan/agents-sdk-learning"
+      }
+    },
+    {
+      title: "Loop Engineering",
+      techStack: ["Side Project", "Python", "Shell", "JavaScript", "PowerShell", "Automation", "CLI"],
+      description:
+        "A hands-on curriculum of 12 projects teaching loop engineering patterns — building autonomous loops that run while you sleep. Includes watcher loops, conditional loops, scheduled loops (cron), maker-checker patterns, engine vs loop architecture, event-driven loops, cost/failure guards, and capstone projects. Each project teaches a heartbeat pattern by making you build a real, working loop.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AreebaxIrfan/Loop_Engineering"
+      }
+    },
+    {
+      title: "Retrieval Rush",
+      techStack: ["Side Project", "TypeScript", "JavaScript", "Next.js", "React", "Tailwind CSS"],
+      description:
+        "A fast-paced web game built around retrieval and memory challenges. Players interact with a polished Next.js interface designed to test recall, speed, and decision-making through an engaging game experience.",
+      link: {
+        label: "retrieval-rush.vercel.app",
+        href: "https://retrieval-rush.vercel.app"
+      }
+    },
     {
       title: "Mindvex",
       techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
@@ -259,6 +302,36 @@ export const RESUME_DATA: ResumeData = {
       link: {
         label: "vercel",
         href: "https://glowve.vercel.app/"
+      }
+    },
+    {
+      title: "Dermateen AI",
+      techStack: ["AI Project", "Next.js", "React", "TypeScript", "Tailwind CSS", "ShadCN UI", "Vercel AI SDK", "Supabase", "Server Actions", "API Routes", "Vercel"],
+      description:
+        "An AI-powered skin analysis platform that analyzes uploaded skin images to detect acne severity and provide intelligent skincare insights. Features secure Supabase authentication, protected routes, user-specific analysis history, AI-powered image analysis, responsive UI, and a scalable SaaS architecture.",
+      link: {
+        label: "v0-dermateen-ai-app.vercel.app",
+        href: "https://v0-dermateen-ai-app.vercel.app/"
+      }
+    },
+    {
+      title: "Agent Factory Skills",
+      techStack: ["AI Project", "Agentic AI", "Prompt Engineering", "AI Agents", "Markdown", "Automation", "LinkedIn Content Generation"],
+      description:
+        "A reusable collection of AI agent skills for building and optimizing intelligent workflows. Includes specialized skills for design optimization, LinkedIn post generation, and master prompt engineering, providing structured instructions that can be reused across AI agents and automation workflows.",
+      link: {
+        label: "github.com",
+        href: "https://github.com/AreebaxIrfan/agent-factory-skills"
+      }
+    },
+    {
+      title: "Physical AI & Humanoid Robotics Course",
+      techStack: ["AI Project", "Physical AI", "Humanoid Robotics", "TypeScript", "PowerShell", "Python", "MDX", "CSS", "Educational Platform"],
+      description:
+        "A modern educational platform created for Hackathon I to teach Physical AI, Humanoid Robotics, and intelligent systems through a structured digital textbook and interactive learning experience. The project combines educational content, web technologies, and AI-focused learning resources to provide a practical foundation for understanding next-generation robotics.",
+      link: {
+        label: "textbook-for-teaching-physical-ai-h.vercel.app",
+        href: "https://textbook-for-teaching-physical-ai-h.vercel.app/"
       }
     },
     {
@@ -333,7 +406,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Agentia_World",
-      techStack: ["Side Project", "Next.js", "TailwindCSS", "TypeScript", "Shadcn UI"], // Fixed comma and removed duplicate
+      techStack: ["Side Project", "Next.js", "TailwindCSS", "TypeScript", "Shadcn UI"],
       description:
         "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and dynamic content management.",
       link: {

@@ -50,6 +50,13 @@
       "start": "2024",
       "end": "Present",
       "description": "Enrolled in a specialized AI training program, learning advanced concepts in artificial intelligence and machine learning."
+    },
+    {
+      "school": "Government Degree College for Women",
+      "degree": "Intermediate in Pre Medical",
+      "start": "2022",
+      "end": "2022",
+      "description": "Completed intermediate education with a focus on pre-medical studies, gaining foundational knowledge in science"
     }
   ],
   "experience": [
@@ -143,33 +150,125 @@
     "Technical Writing"
   ],
   "projects": [
-        {
-    "title": "Mindvex",
-    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    "description": "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
-    "link": {
-      "label": "github.com",
-      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
-    }
-  },
-  {
-    "title": "Hirex",
-    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    "description": "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
-    "link": {
-      "label": "github.com",
-      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
-    }
-  },
-  {
-    "title": "Glove",
-    "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-    "description": "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
-    "link": {
-      "label": "github.com",
-      "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
-    }
-  },
+    {
+      "title": "Agents SDK Learning",
+      "techStack": ["Side Project", "OpenAI Agents SDK", "Python", "TypeScript", "Agentic AI", "OpenAI"],
+      "description": "A comprehensive learning repository for OpenAI's Agents SDK featuring multiple agent implementations: 00.Components (reusable agent components), 01.Prep (preparation exercises), agent-clone, context-agent, lifecycle_agent, new_agent, one_agent. Covers agent patterns, context management, lifecycle hooks, and multi-agent orchestration.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/agents-sdk-learning"
+      }
+    },
+    
+    {
+      "title": "Loop Engineering",
+      "techStack": ["Side Project", "Python", "Shell", "JavaScript", "PowerShell", "Automation", "CLI"],
+      "description": "A hands-on curriculum of 12 projects teaching loop engineering patterns — building autonomous loops that run while you sleep. Includes watcher loops, conditional loops, scheduled loops (cron), maker-checker patterns, engine vs loop architecture, event-driven loops, cost/failure guards, and capstone projects. Each project teaches a heartbeat pattern by making you build a real, working loop.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/Loop_Engineering"
+      }
+    },
+    {
+  "title": "Retrieval Rush",
+  "techStack": [
+    "Side Project",
+    "TypeScript",
+    "JavaScript",
+    "Next.js",
+    "React",
+    "Tailwind CSS"
+  ],
+  "description": "A fast-paced web game built around retrieval and memory challenges. Players interact with a polished Next.js interface designed to test recall, speed, and decision-making through an engaging game experience.",
+  "link": {
+    "label": "retrieval-rush.vercel.app",
+    "href": "https://retrieval-rush.vercel.app"
+  }
+},
+    {
+      "title": "Mindvex",
+      "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      "description": "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+      }
+    },
+    {
+      "title": "Hirex",
+      "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      "description": "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+      }
+    },
+    {
+      "title": "Glove",
+      "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
+      "description": "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+      }
+    },
+    {
+  "title": "Dermateen AI",
+  "techStack": [
+    "AI Project",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "ShadCN UI",
+    "Vercel AI SDK",
+    "Supabase",
+    "Server Actions",
+    "API Routes",
+    "Vercel"
+  ],
+  "description": "An AI-powered skin analysis platform that analyzes uploaded skin images to detect acne severity and provide intelligent skincare insights. Features secure Supabase authentication, protected routes, user-specific analysis history, AI-powered image analysis, responsive UI, and a scalable SaaS architecture.",
+  "link": {
+    "label": "v0-dermateen-ai-app.vercel.app",
+    "href": "https://v0-dermateen-ai-app.vercel.app/"
+  }
+},
+{
+  "title": "Agent Factory Skills",
+  "techStack": [
+    "AI Project",
+    "Agentic AI",
+    "Prompt Engineering",
+    "AI Agents",
+    "Markdown",
+    "Automation",
+    "LinkedIn Content Generation"
+  ],
+  "description": "A reusable collection of AI agent skills for building and optimizing intelligent workflows. Includes specialized skills for design optimization, LinkedIn post generation, and master prompt engineering, providing structured instructions that can be reused across AI agents and automation workflows.",
+  "link": {
+    "label": "github.com",
+    "href": "https://github.com/AreebaxIrfan/agent-factory-skills"
+  }
+},
+{
+  "title": "Physical AI & Humanoid Robotics Course",
+  "techStack": [
+    "AI Project",
+    "Physical AI",
+    "Humanoid Robotics",
+    "TypeScript",
+    "PowerShell",
+    "Python",
+    "MDX",
+    "CSS",
+    "Educational Platform"
+  ],
+  "description": "A modern educational platform created for Hackathon I to teach Physical AI, Humanoid Robotics, and intelligent systems through a structured digital textbook and interactive learning experience. The project combines educational content, web technologies, and AI-focused learning resources to provide a practical foundation for understanding next-generation robotics.",
+  "link": {
+    "label": "textbook-for-teaching-physical-ai-h.vercel.app",
+    "href": "https://textbook-for-teaching-physical-ai-h.vercel.app/"
+  }
+},
     {
       "title": "MediScan AI Pro",
       "techStack": ["Side Project", "Python", "Streamlit", "Google Gemini AI"],
@@ -438,4 +537,3 @@
     }
   ]
 }
-

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="20%" r="60%" fx="20%" fy="20%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#14b8a6;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="80%" r="50%" fx="80%" fy="80%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Decorative grid pattern -->
+  <g stroke="rgba(20,184,166,0.05)" stroke-width="1">
+    <line x1="0" y1="0" x2="1200" y2="630" />
+    <line x1="1200" y1="0" x2="0" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+  </g>
+
+  <!-- Floating geometric shapes -->
+  <circle cx="150" cy="150" r="80" fill="url(#accentGrad)" opacity="0.1"/>
+  <circle cx="1050" cy="480" r="100" fill="url(#accentGrad)" opacity="0.1"/>
+  <rect x="100" y="500" width="60" height="60" rx="10" fill="url(#accentGrad)" opacity="0.1" transform="rotate(-15 130 530)"/>
+  <rect x="1040" y="80" width="80" height="80" rx="15" fill="url(#accentGrad)" opacity="0.1" transform="rotate(20 1080 120)"/>
+
+  <!-- Main content -->
+  <g transform="translate(100, 120)">
+    <!-- Name -->
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="800" fill="white" letter-spacing="-1">
+      Areeba Irfan
+    </text>
+
+    <!-- Title -->
+    <text x="0" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="url(#accentGrad)">
+      Full Stack Developer & AI Engineer
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.7)" width="500">
+      Building production-grade applications with React, Next.js, Python & AI automation
+    </text>
+
+    <!-- Stats -->
+    <g transform="translate(0, 220)">
+      <g className="stat" transform="translate(0, 0)">
+        <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">3+</text>
+        <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.6)">Years Experience</text>
+      </g>
+      <g className="stat" transform="translate(180, 0)">
+        <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">30+</text>
+        <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.6)">Projects Built</text>
+      </g>
+      <g className="stat" transform="translate(360, 0)">
+        <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">15+</text>
+        <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.6)">AI Applications</text>
+      </g>
+    </g>
+
+    <!-- Tech tags -->
+    <g transform="translate(0, 320)">
+      <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="rgba(255,255,255,0.5)">TECH STACK</text>
+      <g transform="translate(0, 30)">
+        <g className="tag" transform="translate(0, 0)">
+          <rect x="0" y="0" width="80" height="28" rx="14" fill="rgba(20,184,166,0.2)" stroke="#14b8a6" stroke-width="1"/>
+          <text x="40" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#14b8a6" text-anchor="middle">Next.js</text>
+        </g>
+        <g className="tag" transform="translate(90, 0)">
+          <rect x="0" y="0" width="70" height="28" rx="14" fill="rgba(20,184,166,0.2)" stroke="#14b8a6" stroke-width="1"/>
+          <text x="35" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#14b8a6" text-anchor="middle">React</text>
+        </g>
+        <g className="tag" transform="translate(170, 0)">
+          <rect x="0" y="0" width="80" height="28" rx="14" fill="rgba(20,184,166,0.2)" stroke="#14b8a6" stroke-width="1"/>
+          <text x="40" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#14b8a6" text-anchor="middle">TypeScript</text>
+        </g>
+        <g className="tag" transform="translate(260, 0)">
+          <rect x="0" y="0" width="60" height="28" rx="14" fill="rgba(139,92,246,0.2)" stroke="#8b5cf6" stroke-width="1"/>
+          <text x="30" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" text-anchor="middle">Python</text>
+        </g>
+        <g className="tag" transform="translate(330, 0)">
+          <rect x="0" y="0" width="75" height="28" rx="14" fill="rgba(139,92,246,0.2)" stroke="#8b5cf6" stroke-width="1"/>
+          <text x="37.5" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" text-anchor="middle">FastAPI</text>
+        </g>
+        <g className="tag" transform="translate(415, 0)">
+          <rect x="0" y="0" width="100" height="28" rx="14" fill="rgba(6,182,212,0.2)" stroke="#06b6d4" stroke-width="1"/>
+          <text x="50" y="20" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#06b6d4" text-anchor="middle">AI Agents</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right side - Profile/Code illustration -->
+  <g transform="translate(700, 100)">
+    <!-- Code window mockup -->
+    <rect x="0" y="0" width="400" height="380" rx="12" fill="#020617" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+    <rect x="0" y="0" width="400" height="44" rx="12" fill="#1e293b"/>
+    <circle cx="16" cy="22" r="6" fill="#ff5f56"/>
+    <circle cx="36" cy="22" r="6" fill="#ffbd2e"/>
+    <circle cx="56" cy="22" r="6" fill="#27ca4f"/>
+
+    <!-- Code lines -->
+    <text x="24" y="80" font-family="ui-monospace, monospace" font-size="13" fill="#a5f3fc">const developer = {</text>
+    <text x="40" y="108" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">name:</text>
+    <text x="100" y="108" font-family="ui-monospace, monospace" font-size="13" fill="#86efac">"Areeba Irfan"</text>
+    <text x="40" y="136" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">role:</text>
+    <text x="100" y="136" font-family="ui-monospace, monospace" font-size="13" fill="#86efac">"Full Stack & AI"</text>
+    <text x="40" y="164" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">stack:</text>
+    <text x="100" y="164" font-family="ui-monospace, monospace" font-size="13" fill="#86efac">["Next.js", "Python", "AI"]</text>
+    <text x="40" y="192" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">build:</text>
+    <text x="100" y="192" font-family="ui-monospace, monospace" font-size="13" fill="#86efac">() => "amazing things"</text>
+    <text x="24" y="220" font-family="ui-monospace, monospace" font-size="13" fill="#a5f3fc">};</text>
+    <text x="24" y="260" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">developer</text>
+    <text x="110" y="260" font-family="ui-monospace, monospace" font-size="13" fill="#c4b5fd">.</text>
+    <text x="120" y="260" font-family="ui-monospace, monospace" font-size="13" fill="#fcd34d">build</text>
+    <text x="165" y="260" font-family="ui-monospace, monospace" font-size="13" fill="#a5f3fc">()</text>
+    <text x="24" y="290" font-family="ui-monospace, monospace" font-size="13" fill="#a5f3fc">// ████████████ 100% complete</text>
+  </g>
+
+  <!-- Bottom branding -->
+  <text x="600" y="600" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="rgba(255,255,255,0.4)" text-anchor="middle">
+    areebairfan.com • Open to opportunities
+  </text>
+</svg>

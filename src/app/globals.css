@@ -1,11 +1,54 @@
 @import "tailwindcss";
 
+/* Light theme (default) */
 :root {
   color-scheme: light;
   --background: #f8fafc;
   --foreground: #0f172a;
   --muted: #475569;
   --border: rgba(15, 23, 42, 0.08);
+  --primary: #14b8a6;
+  --primary-hover: #0d9488;
+  --primary-light: #5eead4;
+  --secondary: #06b6d4;
+  --accent: #8b5cf6;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-hover-border: #14b8a6;
+}
+
+/* Dark theme - activated via class on html element */
+.dark {
+  color-scheme: dark;
+  --background: #020617;
+  --foreground: #f1f5f9;
+  --muted: #94a3b8;
+  --border: rgba(255, 255, 255, 0.1);
+  --primary: #22d3ee;
+  --primary-hover: #06b6d4;
+  --primary-light: #67e8f9;
+  --secondary: #a78bfa;
+  --accent: #c084fc;
+  --card-bg: #0f172a;
+  --card-border: #1e293b;
+  --card-hover-border: #22d3ee;
+}
+
+/* Light theme explicit class */
+.light {
+  color-scheme: light;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --muted: #475569;
+  --border: rgba(15, 23, 42, 0.08);
+  --primary: #14b8a6;
+  --primary-hover: #0d9488;
+  --primary-light: #5eead4;
+  --secondary: #06b6d4;
+  --accent: #8b5cf6;
+  --card-bg: #ffffff;
+  --card-border: #e2e8f0;
+  --card-hover-border: #14b8a6;
 }
 
 html {
@@ -21,15 +64,28 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark body {
+  background:
+    radial-gradient(circle at top, rgba(34, 211, 238, 0.08), transparent 30%),
+    linear-gradient(to bottom, #020617, #0f172a 35%, #020617);
 }
 
 * {
   box-sizing: border-box;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 ::selection {
   background: rgba(20, 184, 166, 0.18);
   color: #0f172a;
+}
+
+.dark ::selection {
+  background: rgba(34, 211, 238, 0.3);
+  color: #f1f5f9;
 }
 
 a {
@@ -46,3 +102,223 @@ section {
   scroll-margin-top: 5rem;
 }
 
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--primary), var(--secondary));
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--primary-hover), var(--secondary));
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Smooth theme transition */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Enhanced card shadows */
+.shadow-elegant {
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.07),
+    0 1px 2px -1px rgba(0, 0, 0, 0.07),
+    0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.dark .shadow-elegant {
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.3),
+    0 1px 2px -1px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.shadow-elegant-hover {
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1),
+    0 0 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.dark .shadow-elegant-hover {
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.4),
+    0 8px 10px -6px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient text utilities */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass morphism */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Animation keyframes */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Staggered animation delays */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+  .dark body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* Container queries for responsive cards */
+@container (min-width: 400px) {
+  .card-responsive {
+    padding: 1.5rem;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --border: rgba(0, 0, 0, 0.3);
+  }
+  .dark {
+    --border: rgba(255, 255, 255, 0.3);
+  }
+}
+
+/* Utility classes for theme-aware components */
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+.border-card {
+  border-color: var(--card-border);
+}
+
+.hover\:border-card-hover:hover {
+  border-color: var(--card-hover-border);
+}
+
+.text-card-foreground {
+  color: var(--foreground);
+}
+
+.text-card-muted {
+  color: var(--muted);
+}

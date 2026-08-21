@@ -1,0 +1,35 @@
+{
+  "name": "Areeba Irfan | Full Stack Developer & AI Engineer",
+  "short_name": "Areeba Irfan",
+  "description": "Full Stack Developer & AI Engineer specializing in React, Next.js, Python, and AI automation. Building production-grade applications.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#14b8a6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["technology", "developer", "portfolio"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Projects",
+      "short_name": "Projects",
+      "description": "View my featured projects",
+      "url": "/#projects"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch",
+      "url": "/#contact"
+    }
+  ]
+}

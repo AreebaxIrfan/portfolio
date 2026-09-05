@@ -255,13 +255,33 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "GIAIC Q4 Sunday",
-      techStack: ["Learning", "AI", "Next.js", "TypeScript", "Frontend", "Coursework"],
+      title: "Zyntra",
+      techStack: ["SaaS", "Next.js", "TypeScript", "UI/UX", "Product Design"],
       description:
-        "A coursework-focused project for GIAIC Q4 Sunday, showcasing weekly learning tasks, front-end builds, and AI-driven product experimentation.",
+        "A visual product and SaaS-inspired interface concept built to explore polished user journeys, modular components, and product storytelling.",
       link: {
-        label: "github.com",
-        href: "https://github.com/AreebaxIrfan/GIAIC_Q4_Sunday",
+        label: "zyntra-psi.vercel.app",
+        href: "https://zyntra-psi.vercel.app/",
+      },
+    },
+    {
+      title: "Virtual University",
+      techStack: ["Education", "Next.js", "TypeScript", "Web App", "Learning Platform"],
+      description:
+        "A virtual university landing experience and learning platform concept focused on accessibility, user flow, and modern study experiences.",
+      link: {
+        label: "virtual-university-steel.vercel.app",
+        href: "https://virtual-university-steel.vercel.app/",
+      },
+    },
+    {
+      title: "Dermateen AI App",
+      techStack: ["AI", "Next.js", "TypeScript", "Healthcare", "Vercel"],
+      description:
+        "An AI-powered dermatologist and skincare assistant application focused on analyzing skin concerns and providing smart recommendations.",
+      link: {
+        label: "v0-dermateen-ai-app.vercel.app",
+        href: "https://v0-dermateen-ai-app.vercel.app/",
       },
     },
     {
@@ -285,33 +305,13 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "Virtual University",
-      techStack: ["Education", "Next.js", "TypeScript", "Web App", "Learning Platform"],
+      title: "GIAIC Q4 Sunday",
+      techStack: ["Learning", "AI", "Next.js", "TypeScript", "Frontend", "Coursework"],
       description:
-        "A virtual university landing experience and learning platform concept focused on accessibility, user flow, and modern study experiences.",
+        "A coursework-focused project for GIAIC Q4 Sunday, showcasing weekly learning tasks, front-end builds, and AI-driven product experimentation.",
       link: {
-        label: "virtual-university-steel.vercel.app",
-        href: "https://virtual-university-steel.vercel.app/",
-      },
-    },
-    {
-      title: "Zyntra",
-      techStack: ["SaaS", "Next.js", "TypeScript", "UI/UX", "Product Design"],
-      description:
-        "A visual product and SaaS-inspired interface concept built to explore polished user journeys, modular components, and product storytelling.",
-      link: {
-        label: "zyntra-psi.vercel.app",
-        href: "https://zyntra-psi.vercel.app/",
-      },
-    },
-    {
-      title: "Dermateen AI App",
-      techStack: ["AI", "Next.js", "TypeScript", "Healthcare", "Vercel"],
-      description:
-        "An AI-powered dermatologist and skincare assistant application focused on analyzing skin concerns and providing smart recommendations.",
-      link: {
-        label: "v0-dermateen-ai-app.vercel.app",
-        href: "https://v0-dermateen-ai-app.vercel.app/",
+        label: "github.com",
+        href: "https://github.com/AreebaxIrfan/GIAIC_Q4_Sunday",
       },
     },
     {

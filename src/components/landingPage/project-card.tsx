@@ -19,19 +19,22 @@ export const ProjectCard: FC<ProjectCardProps> = ({
   liveUrl,
 }) => {
   // Determine card accent color based on project type
-  const typeColors: Record<string, { bg: string; text: string; border: string; icon: string }> = {
-    ai: { bg: "bg-purple-50", text: "text-purple-700", border: "border-purple-200", icon: "🤖" },
-    fullstack: { bg: "bg-emerald-50", text: "text-emerald-700", border: "border-emerald-200", icon: "⚡" },
-    frontend: { bg: "bg-sky-50", text: "text-sky-700", border: "border-sky-200", icon: "🎨" },
-    backend: { bg: "bg-amber-50", text: "text-amber-700", border: "border-amber-200", icon: "⚙️" },
+  const typeColors: Record<
+    string,
+    { bg: string; bar: string; text: string; border: string; icon: string }
+  > = {
+    ai: { bg: "bg-purple-50", bar: "bg-purple-500", text: "text-purple-700", border: "border-purple-200", icon: "🤖" },
+    fullstack: { bg: "bg-emerald-50", bar: "bg-emerald-500", text: "text-emerald-700", border: "border-emerald-200", icon: "⚡" },
+    frontend: { bg: "bg-sky-50", bar: "bg-sky-500", text: "text-sky-700", border: "border-sky-200", icon: "🎨" },
+    backend: { bg: "bg-amber-50", bar: "bg-amber-500", text: "text-amber-700", border: "border-amber-200", icon: "⚙️" },
   };
 
   const colors = typeColors[projectType] || typeColors.frontend;
 
   return (
-    <article className={`group relative border rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl ${colors.border} bg-white`}>
+    <article className={`group relative overflow-hidden rounded-2xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${colors.border} bg-white`}>
       {/* Top accent bar */}
-      <div className={`h-1 ${colors.bg.replace("50", "500")}`} />
+      <div className={`h-1 ${colors.bar}`} />
 
       <div className="p-5 sm:p-6">
         {/* Project type badge */}
@@ -42,7 +45,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
         </div>
 
         {/* Title */}
-        <h3 className="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-teal-600 transition-colors duration-200 mb-3 leading-tight">
+        <h3 className="text-lg sm:text-xl font-bold text-slate-900 group-hover:text-teal-700 transition-colors duration-200 mb-3 leading-tight">
           {title}
         </h3>
 
@@ -56,7 +59,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
           {tags.slice(0, 6).map((tag) => (
             <span
               key={tag}
-              className="px-2.5 py-1 text-xs font-medium bg-slate-50 text-slate-600 rounded-lg border border-slate-200 hover:bg-teal-50 hover:text-teal-700 hover:border-teal-200 transition-all duration-200"
+              className="px-2.5 py-1 text-xs font-medium bg-slate-50 text-slate-600 rounded-lg border border-slate-200 hover:border-teal-200 hover:bg-teal-50 hover:text-teal-800 transition-all duration-200"
               role="listitem"
             >
               {tag}
@@ -76,7 +79,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
               href={liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-teal-600 rounded-lg hover:bg-teal-700 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+              className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-white bg-teal-700 rounded-lg hover:bg-teal-800 hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2"
               aria-label={`View live demo of ${title}`}
             >
               <ExternalLink className="h-4 w-4" aria-hidden="true" />
@@ -87,7 +90,7 @@ export const ProjectCard: FC<ProjectCardProps> = ({
             href={githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 hover:border-teal-400 hover:text-teal-600 hover:shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-slate-700 bg-white border border-slate-300 rounded-lg hover:bg-slate-50 hover:border-teal-400 hover:text-teal-700 hover:shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-teal-700 focus:ring-offset-2"
             aria-label={`View source code of ${title}`}
           >
             <Github className="h-4 w-4" aria-hidden="true" />

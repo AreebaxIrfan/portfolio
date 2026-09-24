@@ -10,6 +10,7 @@ export function EducationSection() {
         title="Academic Background"
         subtitle="Formal education and specialized training that shaped my technical foundation."
         align="center"
+        id="education-heading"
       />
       <div className="relative max-w-3xl mx-auto mt-10">
         {/* Vertical timeline line */}

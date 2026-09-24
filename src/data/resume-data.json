@@ -3,8 +3,8 @@
   "initials": "AI",
   "location": "Based in Karachi, Pakistan pk",
   "locationLink": "https://www.google.com/maps/place/pakistan/karachi",
-  "about": "AI & Full-Stack Developer. GIAIC Coordinator. IT Instructor. Startup & product builder. 💻",
-  "summary": "Associate Degree in Computer Science student at Virtual University with AI-focused training at GIAIC, where I also serve as a GIAIC Coordinator. Started my technology journey in 2023 and entered the professional tech space in August 2024. I build AI and full-stack projects, teach beginner students in technology and AI, and focus on growing my own software/SaaS products.",
+  "about": "Agentic AI & Full-Stack Developer. GIAIC Coordinator. IT Instructor. Startup & product builder. 💻",
+  "summary": "Full-stack and Agentic AI developer from Karachi with 2+ years of experience. I build AI agents, LLM-powered apps, and full-stack products with Next.js and Python. I'm studying Computer Science at Virtual University and AI at GIAIC, where I also serve as a coordinator. I teach beginners technology and AI, and I'm growing my own SaaS products.",
   "avatarUrl": "/areebairfan.png",
   "personalWebsiteUrl": "https://areebaxirfan.vercel.app/",
   "contact": {
@@ -42,33 +42,33 @@
       "degree": "Associate Degree in Computer Science",
       "start": "2025",
       "end": "Present",
-      "description": "Currently pursuing an Associate Degree in Computer Science, focusing on programming and web development."
+      "description": "Studying Computer Science with a focus on programming and web development."
     },
     {
       "school": "GIAIC (Governor's Initiative on Artificial Intelligence and Computing)",
       "degree": "Artificial Intelligence Program",
       "start": "2024",
       "end": "Present",
-      "description": "Enrolled in a specialized AI training program, learning advanced concepts in artificial intelligence and machine learning."
+      "description": "Specialized training in artificial intelligence and machine learning."
     },
     {
       "school": "Government Degree College for Women",
       "degree": "Intermediate in Pre Medical",
       "start": "2022",
       "end": "2022",
-      "description": "Completed intermediate education with a focus on pre-medical studies, gaining foundational knowledge in science"
+      "description": "Completed intermediate studies in Pre-Medical, building a strong foundation in science."
     }
   ],
   "experience": [
     {
       "company": "GIAIC",
       "position": "GIAIC Coordinator",
-      "description": "Helping coordinate activities and supporting peers with technical learning and projects."
+      "description": "Coordinating community activities and supporting peers with technical learning and projects."
     },
     {
       "company": "Independent",
       "position": "IT Instructor",
-      "description": "Teaching beginner students in technology and AI while supporting peers with technical learning and projects."
+      "description": "Teaching beginners technology and AI, and supporting peers with their learning and projects."
     }
   ],
   "startups": [
@@ -79,17 +79,17 @@
     {
       "name": "HireX",
       "role": "Co-Founder",
-      "description": "AI-powered resume analyzer product that evaluates CVs and gives recommendations for job seekers."
+      "description": "AI resume analyzer that evaluates CVs and gives job seekers clear recommendations."
     },
     {
       "name": "Mindvex",
       "role": "Founder / Independent Startup Project",
-      "description": "AI-powered study assistant that generates summaries, key points, and quizzes."
+      "description": "AI study assistant that generates summaries, key points, and quizzes."
     },
     {
       "name": "Glove",
       "role": "Founder / Independent Startup Project",
-      "description": "AI-based skin and eye scanner that analyzes uploaded images to detect potential issues."
+      "description": "AI skin and eye scanner that analyzes uploaded images to flag potential issues."
     },
     {
       "name": "GlowUpScanner",
@@ -98,7 +98,7 @@
     {
       "name": "Ryrox",
       "role": "Founder / Independent Startup Project",
-      "description": "Brand-focused landing page/product exploring product identity and web design."
+      "description": "Brand-focused landing page exploring product identity and web design."
     },
     {
       "name": "Zyntra",
@@ -108,7 +108,7 @@
   ],
   "achievements": [
     {
-      "title": "Completed 30 Days 30 Projects Challenge",
+      "title": "Completed the 30 Days 30 Projects Challenge",
       "by": "By: GIAIC Community",
       "reference": [
         {
@@ -118,8 +118,8 @@
       ]
     },
     {
-      "title": "Completed 100 Days of Coding Challenge",
-      "by": "By:GIAIC Community",
+      "title": "Completed the 100 Days of Coding Challenge",
+      "by": "By: GIAIC Community",
       "reference": [
         {
           "name": "👉 Reference",
@@ -140,7 +140,7 @@
     {
       "title": "$1 Dollar Win Recognition (2-Time Winner)",
       "by": "By: Sir Asharib Ali (Lead Teacher GIAIC)",
-      "description": "Received the $1 Dollar Win recognition twice for successfully converting Figma designs into Next.js implementations.",
+      "description": "Won the $1 Dollar Win recognition twice for converting Figma designs into Next.js implementations.",
       "reference": [
         {
           "name": "👉 Reference",
@@ -151,7 +151,7 @@
     {
       "title": "Hackathon & Challenge Projects",
       "by": "By: Sir Ameeen Alam (Dean of Faculty GIAIC)",
-      "description": "Identifiable challenge work: E-commerce Website (Frontend), E-commerce Website (Full Stack), Hackathon-I — Create a Textbook for Teaching Physical AI / Humanoid Robotics, and Hackathon-II.",
+      "description": "Challenge work includes an E-commerce Website (Frontend), an E-commerce Website (Full Stack), Hackathon-I (a textbook for teaching Physical AI / Humanoid Robotics), and Hackathon-II.",
       "reference": [
         {
           "name": "👉 Reference",
@@ -187,7 +187,7 @@
     {
       "title": "SaaS Payment Integration",
       "techStack": ["Side Project", "Next.js", "Stripe", "Payments", "SaaS", "Vercel"],
-      "description": "A SaaS payment integration prototype built to demonstrate subscription and checkout flows with a polished UI and production-style architecture.",
+      "description": "A SaaS payment prototype demonstrating subscription and checkout flows, with a polished UI and production-style architecture.",
       "link": {
         "label": "v0-saa-s-payment-integration.vercel.app",
         "href": "https://v0-saa-s-payment-integration.vercel.app/"
@@ -196,7 +196,7 @@
     {
       "title": "Zyntra",
       "techStack": ["SaaS", "Next.js", "TypeScript", "UI/UX", "Product Design"],
-      "description": "A visual product and SaaS-inspired interface concept built to explore polished user journeys, modular components, and product storytelling.",
+      "description": "A SaaS-inspired interface concept exploring polished user journeys, modular components, and product storytelling.",
       "link": {
         "label": "zyntra-psi.vercel.app",
         "href": "https://zyntra-psi.vercel.app/"
@@ -205,7 +205,7 @@
     {
       "title": "Virtual University",
       "techStack": ["Education", "Next.js", "TypeScript", "Web App", "Learning Platform"],
-      "description": "A virtual university landing experience and learning platform concept focused on accessibility, user flow, and modern study experiences.",
+      "description": "A virtual university landing page and learning platform concept focused on accessibility, clear user flow, and a modern study experience.",
       "link": {
         "label": "virtual-university-steel.vercel.app",
         "href": "https://virtual-university-steel.vercel.app/"
@@ -214,7 +214,7 @@
     {
       "title": "Dermateen AI App",
       "techStack": ["AI", "Next.js", "TypeScript", "Healthcare", "Vercel"],
-      "description": "An AI-powered dermatologist and skincare assistant application focused on analyzing skin concerns and providing smart recommendations.",
+      "description": "An AI-powered dermatology and skincare assistant that analyzes skin concerns and provides smart recommendations.",
       "link": {
         "label": "v0-dermateen-ai-app.vercel.app",
         "href": "https://v0-dermateen-ai-app.vercel.app/"
@@ -223,7 +223,7 @@
     {
       "title": "Image Expressive Design",
       "techStack": ["Design", "AI", "Image Processing", "Frontend", "Creative Tech"],
-      "description": "A design-driven project exploring expressive image composition and visual interpretation using modern creative technology workflows.",
+      "description": "A design-driven project exploring expressive image composition and visual interpretation with modern creative tech.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/image-expressive-design"
@@ -232,7 +232,7 @@
     {
       "title": "Faithful Design Renderer",
       "techStack": ["Design", "Renderer", "Frontend", "TypeScript", "Creative Engineering"],
-      "description": "A renderer-focused project designed to faithfully reproduce visual layouts and design systems through code-based composition.",
+      "description": "A renderer that faithfully reproduces visual layouts and design systems through code-based composition.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/faithful-design-renderer"
@@ -241,7 +241,7 @@
     {
       "title": "GIAIC Q4 Sunday",
       "techStack": ["Learning", "AI", "Next.js", "TypeScript", "Frontend", "Coursework"],
-      "description": "A coursework-focused project for GIAIC Q4 Sunday, showcasing weekly learning tasks, front-end builds, and AI-driven product experimentation.",
+      "description": "Coursework from GIAIC Q4 Sunday: weekly learning tasks, front-end builds, and AI product experiments.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/GIAIC_Q4_Sunday"
@@ -250,7 +250,7 @@
     {
       "title": "Ryrox",
       "techStack": ["Brand", "Landing Page", "Next.js", "Web Design", "Marketing"],
-      "description": "A brand-focused landing page experience designed to highlight product identity, polished visuals, and a conversion-driven marketing narrative.",
+      "description": "A brand-focused landing page that highlights product identity through polished visuals and a conversion-driven narrative.",
       "link": {
         "label": "ryrox.vercel.app",
         "href": "https://ryrox.vercel.app/"
@@ -259,42 +259,41 @@
     {
       "title": "Agents SDK Learning",
       "techStack": ["Side Project", "OpenAI Agents SDK", "Python", "TypeScript", "Agentic AI", "OpenAI"],
-      "description": "A comprehensive learning repository for OpenAI's Agents SDK featuring multiple agent implementations: 00.Components (reusable agent components), 01.Prep (preparation exercises), agent-clone, context-agent, lifecycle_agent, new_agent, one_agent. Covers agent patterns, context management, lifecycle hooks, and multi-agent orchestration.",
+      "description": "A learning repository for OpenAI's Agents SDK with multiple agent implementations, including reusable components, context-agent, and lifecycle_agent. Covers agent patterns, context management, lifecycle hooks, and multi-agent orchestration.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/agents-sdk-learning"
       }
     },
-    
     {
       "title": "Loop Engineering",
       "techStack": ["Side Project", "Python", "Shell", "JavaScript", "PowerShell", "Automation", "CLI"],
-      "description": "A hands-on curriculum of 12 projects teaching loop engineering patterns — building autonomous loops that run while you sleep. Includes watcher loops, conditional loops, scheduled loops (cron), maker-checker patterns, engine vs loop architecture, event-driven loops, cost/failure guards, and capstone projects. Each project teaches a heartbeat pattern by making you build a real, working loop.",
+      "description": "A hands-on curriculum of 12 projects on loop engineering: building autonomous loops that run while you sleep. Covers watcher, conditional, scheduled (cron), and event-driven loops, maker-checker patterns, engine vs. loop architecture, cost/failure guards, and capstone projects.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Loop_Engineering"
       }
     },
     {
-  "title": "Retrieval Rush",
-  "techStack": [
-    "Side Project",
-    "TypeScript",
-    "JavaScript",
-    "Next.js",
-    "React",
-    "Tailwind CSS"
-  ],
-  "description": "A fast-paced web game built around retrieval and memory challenges. Players interact with a polished Next.js interface designed to test recall, speed, and decision-making through an engaging game experience.",
-  "link": {
-    "label": "retrieval-rush.vercel.app",
-    "href": "https://retrieval-rush.vercel.app"
-  }
-},
+      "title": "Retrieval Rush",
+      "techStack": [
+        "Side Project",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "React",
+        "Tailwind CSS"
+      ],
+      "description": "A fast-paced web game built around retrieval and memory challenges, testing recall, speed, and decision-making through a polished Next.js interface.",
+      "link": {
+        "label": "retrieval-rush.vercel.app",
+        "href": "https://retrieval-rush.vercel.app"
+      }
+    },
     {
       "title": "Mindvex",
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-      "description": "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
+      "description": "An AI study assistant that turns any topic, even a single keyword, into structured summaries, key points, and quizzes.",
       "link": {
         "label": "vercel",
         "href": "https://mindvex.vercel.app/"
@@ -303,7 +302,7 @@
     {
       "title": "Hirex",
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-      "description": "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
+      "description": "An AI resume analyzer that evaluates CVs, highlights weaknesses, and gives job seekers instant recommendations.",
       "link": {
         "label": "vercel",
         "href": "https://hire-x-mvp.vercel.app/"
@@ -312,7 +311,7 @@
     {
       "title": "Glove",
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
-      "description": "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
+      "description": "An AI skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
       "link": {
         "label": "vercel",
         "href": "https://glowve.vercel.app/"
@@ -320,65 +319,65 @@
     },
     {
       "title": "Dermateen AI",
-  "techStack": [
-    "AI Project",
-    "Next.js",
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
-    "ShadCN UI",
-    "Vercel AI SDK",
-    "Supabase",
-    "Server Actions",
-    "API Routes",
-    "Vercel"
-  ],
-  "description": "An AI-powered skin analysis platform that analyzes uploaded skin images to detect acne severity and provide intelligent skincare insights. Features secure Supabase authentication, protected routes, user-specific analysis history, AI-powered image analysis, responsive UI, and a scalable SaaS architecture.",
-  "link": {
-    "label": "v0-dermateen-ai-app.vercel.app",
-    "href": "https://v0-dermateen-ai-app.vercel.app/"
-  }
-},
-{
-  "title": "Agent Factory Skills",
-  "techStack": [
-    "AI Project",
-    "Agentic AI",
-    "Prompt Engineering",
-    "AI Agents",
-    "Markdown",
-    "Automation",
-    "LinkedIn Content Generation"
-  ],
-  "description": "A reusable collection of AI agent skills for building and optimizing intelligent workflows. Includes specialized skills for design optimization, LinkedIn post generation, and master prompt engineering, providing structured instructions that can be reused across AI agents and automation workflows.",
-  "link": {
-    "label": "github.com",
-    "href": "https://github.com/AreebaxIrfan/agent-factory-skills"
-  }
-},
-{
-  "title": "Physical AI & Humanoid Robotics Course",
-  "techStack": [
-    "AI Project",
-    "Physical AI",
-    "Humanoid Robotics",
-    "TypeScript",
-    "PowerShell",
-    "Python",
-    "MDX",
-    "CSS",
-    "Educational Platform"
-  ],
-  "description": "A modern educational platform created for Hackathon I to teach Physical AI, Humanoid Robotics, and intelligent systems through a structured digital textbook and interactive learning experience. The project combines educational content, web technologies, and AI-focused learning resources to provide a practical foundation for understanding next-generation robotics.",
-  "link": {
-    "label": "textbook-for-teaching-physical-ai-h.vercel.app",
-    "href": "https://textbook-for-teaching-physical-ai-h.vercel.app/"
-  }
-},
+      "techStack": [
+        "AI Project",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "ShadCN UI",
+        "Vercel AI SDK",
+        "Supabase",
+        "Server Actions",
+        "API Routes",
+        "Vercel"
+      ],
+      "description": "An AI skin analysis platform that detects acne severity from uploaded images and provides skincare insights. Features Supabase authentication, protected routes, per-user analysis history, and a responsive, scalable SaaS architecture.",
+      "link": {
+        "label": "v0-dermateen-ai-app.vercel.app",
+        "href": "https://v0-dermateen-ai-app.vercel.app/"
+      }
+    },
+    {
+      "title": "Agent Factory Skills",
+      "techStack": [
+        "AI Project",
+        "Agentic AI",
+        "Prompt Engineering",
+        "AI Agents",
+        "Markdown",
+        "Automation",
+        "LinkedIn Content Generation"
+      ],
+      "description": "A reusable collection of AI agent skills for building and optimizing workflows, including skills for design optimization, LinkedIn post generation, and master prompt engineering.",
+      "link": {
+        "label": "github.com",
+        "href": "https://github.com/AreebaxIrfan/agent-factory-skills"
+      }
+    },
+    {
+      "title": "Physical AI & Humanoid Robotics Course",
+      "techStack": [
+        "AI Project",
+        "Physical AI",
+        "Humanoid Robotics",
+        "TypeScript",
+        "PowerShell",
+        "Python",
+        "MDX",
+        "CSS",
+        "Educational Platform"
+      ],
+      "description": "A digital textbook and interactive learning platform built for Hackathon I, teaching Physical AI, Humanoid Robotics, and intelligent systems through structured content and practical resources.",
+      "link": {
+        "label": "textbook-for-teaching-physical-ai-h.vercel.app",
+        "href": "https://textbook-for-teaching-physical-ai-h.vercel.app/"
+      }
+    },
     {
       "title": "MediScan AI Pro",
       "techStack": ["Side Project", "Python", "Streamlit", "Google Gemini AI"],
-      "description": "An AI-powered medical image diagnostic tool that analyzes images of visible body parts (e.g., eye, skin) to provide disease identification, treatment recommendations, and medication suggestions.",
+      "description": "An AI medical image tool that analyzes visible body parts (e.g., eye, skin) to identify possible conditions and suggest treatments and medications.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
@@ -386,8 +385,8 @@
     },
     {
       "title": "School Website",
-      "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "sanity","Full Stack"],
-      "description": "A modern, responsive school website built to provide an intuitive user experience for students, parents, and staff. Features include dynamic content management, event scheduling, and seamless navigation for accessing academic resources and updates.",
+      "techStack": ["Side Project", "Next.js", "Tailwind CSS", "TypeScript", "Shadcn UI", "sanity", "Full Stack"],
+      "description": "A responsive school website for students, parents, and staff, with dynamic content management, event scheduling, and easy access to academic resources and updates.",
       "link": {
         "label": "GitHub Repository",
         "href": "https://github.com/AreebaxIrfan/Khadija-School"
@@ -396,7 +395,7 @@
     {
       "title": "AI Chatbot with Chainlit",
       "techStack": ["Side Project", "Python", "OpenAI SDK", "Chainlit"],
-      "description": "An interactive chatbot built with OpenAI SDK and Chainlit, featuring a responsive Python-based frontend for seamless user interaction.",
+      "description": "An interactive chatbot built with the OpenAI SDK and Chainlit, with a responsive Python-based interface.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/Ramadan_Coding_Nights/Day_17_Advance_Agent"
@@ -405,7 +404,7 @@
     {
       "title": "Gemini Chatbot with Streamlit",
       "techStack": ["Side Project", "Python", "Streamlit", "Google Gemini API"],
-      "description": "A chatbot powered by Google's Gemini API, built with Streamlit for a user-friendly interface and efficient conversation handling.",
+      "description": "A Streamlit chatbot powered by Google's Gemini API, with a clean interface and smooth conversation handling.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/projects/tree/main/chatbot"
@@ -414,7 +413,7 @@
     {
       "title": "Resume Generator",
       "techStack": ["Side Project", "Python", "HTML", "CSS"],
-      "description": "A tool for creating professional resumes with customizable templates, using Python for backend logic and HTML/CSS for styling.",
+      "description": "A resume creation tool with customizable templates, using Python for backend logic and HTML/CSS for styling.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/projects/tree/main/resume_generator"
@@ -423,7 +422,7 @@
     {
       "title": "Streamlit Website",
       "techStack": ["Side Project", "Python", "Streamlit"],
-      "description": "A website built with Streamlit, generate a quotes and the daily challenge, interactive interface.",
+      "description": "An interactive Streamlit website that generates quotes and daily challenges.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Steamlit-Website"
@@ -432,7 +431,7 @@
     {
       "title": "Niky Shoes Website",
       "techStack": ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
-      "description": "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
+      "description": "A full-stack shoe e-commerce platform with a Next.js frontend and Sanity CMS for content management.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Nike_Shoes_Ecommerce_Marketplace"
@@ -441,7 +440,7 @@
     {
       "title": "Agentia_World",
       "techStack": ["Side Project", "Next.js", "TypeScript", "TailwindCSS", "Shadcn UI"],
-      "description": "A website for Agentia World presenting enterprise AI agents — featuring capabilities, AI solutions, pricing, and contact sections — built with Next.js and Tailwind CSS.",
+      "description": "A website presenting enterprise AI agents, with sections for capabilities, AI solutions, pricing, and contact. Built with Next.js and Tailwind CSS.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/agentia_world"
@@ -450,7 +449,7 @@
     {
       "title": "Niky Dashboard",
       "techStack": ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
-      "description": "A dashboard for managing the backend and inventory of the Niky Shoes e-commerce platform, built with Next.js and Sanity CMS.",
+      "description": "An admin dashboard for managing the backend and inventory of the Niky Shoes platform, built with Next.js and Sanity CMS.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Niky_Dashboard"
@@ -459,7 +458,7 @@
     {
       "title": "Bouquet E-commerce Website",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "An e-commerce website for bouquets, featuring a responsive Next.js frontend with a focus on user experience.",
+      "description": "A responsive bouquet e-commerce website built with Next.js, with a focus on user experience.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/e-commerce"
@@ -468,7 +467,7 @@
     {
       "title": "Next.js Admin Dashboard",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "A customizable admin dashboard built with Next.js, designed for efficient data management and visualization.",
+      "description": "A customizable admin dashboard built with Next.js for efficient data management and visualization.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/next.js-Dashboard"
@@ -477,7 +476,7 @@
     {
       "title": "Blog Website with Comments",
       "techStack": ["Side Project", "Next.js", "React", "Frontend"],
-      "description": "A Next.js-powered blog platform with commenting functionality and a responsive design for seamless user engagement.",
+      "description": "A Next.js blog platform with commenting and a responsive design for smooth reader engagement.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/blog-website"
@@ -486,7 +485,7 @@
     {
       "title": "Book Hub",
       "techStack": ["Side Project", "Next.js", "API", "Frontend"],
-      "description": "A book discovery platform that fetches book data via an API, built with Next.js for a dynamic frontend.",
+      "description": "A book discovery platform built with Next.js that fetches book data from an API.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Book-Hub"
@@ -495,7 +494,7 @@
     {
       "title": "Personal Portfolio",
       "techStack": ["Side Project", "HTML", "CSS", "JavaScript"],
-      "description": "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
+      "description": "My personal portfolio showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       "link": {
         "label": "github.com",
         "href": "https://areebaxirfan.vercel.app/"
@@ -504,7 +503,7 @@
     {
       "title": "Random User Generator",
       "techStack": ["Side Project", "Next.js", "API", "Frontend"],
-      "description": "An application that fetches random user data via an API, built with Next.js for a responsive frontend.",
+      "description": "A responsive Next.js app that fetches and displays random user data from an API.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/random-user-generator"
@@ -513,7 +512,7 @@
     {
       "title": "Todo List",
       "techStack": ["Side Project", "HTML", "CSS", "JavaScript"],
-      "description": "A simple todo list application for task management, built with HTML, CSS, and JavaScript.",
+      "description": "A simple to-do app for task management, built with HTML, CSS, and JavaScript.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/to-do-list"
@@ -522,7 +521,7 @@
     {
       "title": "Move Cursor",
       "techStack": ["Side Project", "HTML", "CSS", "JavaScript"],
-      "description": "An interactive project that creates dynamic cursor movement effects using HTML, CSS, and JavaScript.",
+      "description": "An interactive project with dynamic cursor movement effects, built with HTML, CSS, and JavaScript.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/move-cursor"
@@ -531,7 +530,7 @@
     {
       "title": "Birthday Card",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "A digital birthday card application with animations, built using Next.js for a modern frontend.",
+      "description": "An animated digital birthday card built with Next.js.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/birthday-card"
@@ -540,7 +539,7 @@
     {
       "title": "Niky Clone",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "A clone of the Niky website, replicating its design and functionality using Next.js.",
+      "description": "A Next.js clone of the Niky website that replicates its design and functionality.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/shoes-website"
@@ -549,7 +548,7 @@
     {
       "title": "Music Course Website",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "A music course website featuring guitar, vocal, and music production courses with individual course pages, testimonials, and instructor sections, built with Next.js.",
+      "description": "A Next.js website for guitar, vocal, and music production courses, with individual course pages, testimonials, and instructor sections.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/music-course-web"
@@ -558,7 +557,7 @@
     {
       "title": "Resume Builder",
       "techStack": ["Side Project", "HTML", "CSS", "TypeScript"],
-      "description": "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
+      "description": "A web-based resume builder with customizable templates, built with HTML, CSS, and TypeScript.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/resume-builder"
@@ -567,7 +566,7 @@
     {
       "title": "Animated Projects",
       "techStack": ["Side Project", "HTML", "CSS", "TypeScript"],
-      "description": "A functional application with a clean interface, built using HTML, CSS, and TypeScript.",
+      "description": "A functional app with a clean interface, built with HTML, CSS, and TypeScript.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Animated-Project"
@@ -576,7 +575,7 @@
     {
       "title": "Python Projects",
       "techStack": ["Python", "streamlit"],
-      "description": "A functional application with a clean interface, built using streamlit and python",
+      "description": "A functional application with a clean interface, built with Python and Streamlit.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/Agentic_AI/tree/main/projects"
@@ -585,7 +584,7 @@
     {
       "title": "100 Days of Coding",
       "techStack": ["GIAIC", "Web Development", "TypeScript"],
-      "description": "Completed a 100-day coding challenge, building a new project each day to enhance skills.",
+      "description": "Completed a 100-day coding challenge, building a new project every day to sharpen my skills.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/100-days-of-code"
@@ -594,7 +593,7 @@
     {
       "title": "Ramadan Coding Nights",
       "techStack": ["GIAIC", "Live Coding", "Python"],
-      "description": "Participated in a 20-day Ramadan coding challenge, building Python mini-projects and sharing knowledge.",
+      "description": "Took part in a 20-day Ramadan coding challenge, building Python mini-projects and sharing knowledge.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/Ramadan_Coding_Nights"
@@ -603,7 +602,7 @@
     {
       "title": "30 Days of Projects Coding",
       "techStack": ["GIAIC", "Web Development", "Next.js"],
-      "description": "Completed a 30-day coding challenge, building a new project each day to enhance skills.",
+      "description": "Completed a 30-day coding challenge, building a new project every day to sharpen my skills.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/areeba-irfan/100-days-of-code"
@@ -627,13 +626,13 @@
       "icon": "🏆"
     },
     {
-      "title": "Helping Class Fellows In Coding",
-      "description": "Assisted class fellows with computer basics and related topics",
+      "title": "Helping Class Fellows in Coding",
+      "description": "Helped class fellows with computer basics and related topics",
       "icon": "🤝"
     },
     {
       "title": "Languages",
-      "description": "English , Urdu ",
+      "description": "English, Urdu",
       "icon": "🗣️"
     },
     {

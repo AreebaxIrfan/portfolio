@@ -1,5 +1,5 @@
+import type { CSSProperties } from "react";
 import type { LucideIcon } from "lucide-react";
-import { motion } from "framer-motion";
 
 interface SkillCardProps {
   icon: LucideIcon;
@@ -27,39 +27,52 @@ const iconBgGradients = [
   "from-sky-500/10 to-blue-500/10",
 ];
 
+const iconColors = [
+  "text-teal-600",
+  "text-emerald-600",
+  "text-violet-600",
+  "text-amber-600",
+  "text-rose-600",
+  "text-sky-600",
+];
+
 export function SkillCard({ icon: Icon, title, description, skills, index = 0 }: SkillCardProps) {
   const gradient = iconGradients[index % iconGradients.length];
   const bgGradient = iconBgGradients[index % iconBgGradients.length];
+  const iconColor = iconColors[index % iconColors.length];
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group relative bg-white border border-slate-200 rounded-2xl p-6 hover:shadow-xl hover:border-teal-200 transition-all duration-300"
+    <article
+      data-reveal
+      style={{ "--reveal-delay": `${index * 60}ms` } as CSSProperties}
+      className="group relative rounded-2xl border border-slate-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-teal-300 hover:shadow-xl"
     >
       {/* Top accent */}
-      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r rounded-t-2xl" style={{ background: `var(--tw-gradient-from, ${gradient})` }} />
+      <div
+        className={`absolute top-0 right-0 left-0 h-1 rounded-t-2xl bg-gradient-to-r ${gradient}`}
+        aria-hidden="true"
+      />
 
       <div className="relative space-y-4">
         {/* Icon wrapper */}
-        <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${bgGradient} group-hover:scale-110 transition-transform duration-300`}>
-          <Icon className="h-6 w-6" style={{ background: `linear-gradient(135deg, ${gradient})`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }} aria-hidden="true" />
+        <div
+          className={`inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br transition-transform duration-300 group-hover:scale-110 ${bgGradient}`}
+        >
+          <Icon className={`h-6 w-6 ${iconColor}`} aria-hidden="true" />
         </div>
 
         {/* Content */}
         <div>
           <h3 className="text-xl font-bold text-slate-900">{title}</h3>
-          <p className="text-sm text-slate-600 leading-relaxed mt-1">{description}</p>
+          <p className="mt-1 text-sm leading-relaxed text-slate-600">{description}</p>
         </div>
 
         {/* Skills tags */}
-        <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-100">
-          {skills.map((skill, i) => (
+        <div className="flex flex-wrap gap-2 border-t border-slate-100 pt-2">
+          {skills.map((skill) => (
             <span
               key={skill}
-              className="px-3 py-1 text-xs font-medium bg-slate-50 text-slate-600 rounded-lg border border-slate-200 hover:bg-teal-50 hover:text-teal-700 hover:border-teal-200 transition-all duration-200 group"
+              className="rounded-lg border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600 transition-colors duration-200 hover:border-teal-200 hover:bg-teal-50 hover:text-teal-700"
             >
               {skill}
             </span>
@@ -68,7 +81,10 @@ export function SkillCard({ icon: Icon, title, description, skills, index = 0 }:
       </div>
 
       {/* Hover glow */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-teal-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
-    </motion.article>
+      <div
+        className="pointer-events-none absolute inset-0 rounded-2xl bg-gradient-to-tr from-teal-500/5 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        aria-hidden="true"
+      />
+    </article>
   );
 }

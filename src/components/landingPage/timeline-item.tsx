@@ -1,5 +1,5 @@
+import type { CSSProperties } from "react";
 import { Badge } from "@/components/ui/badge";
-import { motion } from "framer-motion";
 
 interface TimelineItemProps {
   date: string;
@@ -33,12 +33,10 @@ export function TimelineItem({ date, title, institution, description, type = "ed
   const styles = typeStyles[type];
 
   return (
-    <motion.div
-      initial={{ opacity: 0, x: -20 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="relative group"
+    <div
+      data-reveal
+      style={{ "--reveal-delay": `${index * 70}ms` } as CSSProperties}
+      className="group relative"
     >
       {/* Timeline line */}
       <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-slate-200" aria-hidden="true" />
@@ -77,6 +75,6 @@ export function TimelineItem({ date, title, institution, description, type = "ed
           )}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

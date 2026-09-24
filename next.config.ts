@@ -40,7 +40,7 @@ const nextConfig: NextConfig = {
 
   // Experimental features for performance
   experimental: {
-    optimizePackageImports: ["lucide-react", "framer-motion"],
+    optimizePackageImports: ["lucide-react"],
     // cssChunking: "strict", // Enable when stable
   },
 

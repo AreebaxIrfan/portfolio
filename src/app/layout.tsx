@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { ScrollReveal } from "@/components/ScrollReveal";
 import { Header } from "@/components/landingPage/Header";
 import Footer from "@/components/landingPage/footer";
 
@@ -139,16 +140,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="canonical" href={baseUrl} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://vercel.app" />
         <link rel="dns-prefetch" href="https://github.com" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#14b8a6" media="(prefers-color-scheme: light)" />
         <meta name="theme-color" content="#06b6d4" media="(prefers-color-scheme: dark)" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         {/* JSON-LD Structured Data */}
         <script
@@ -158,13 +154,14 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} font-sans antialiased`}>
         <ThemeProvider>
+          <ScrollReveal />
           <a
             href="#main-content"
-            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 px-4 py-2 bg-teal-600 text-white rounded-md"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 px-4 py-2 bg-teal-700 text-white rounded-md"
           >
             Skip to main content
           </a>
-          {/* <Header /> */}
+          <Header />
           <main id="main-content" className="min-h-screen" tabIndex={-1}>
             {children}
           </main>

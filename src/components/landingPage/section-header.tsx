@@ -5,24 +5,28 @@ interface SectionHeaderProps {
   title: string;
   subtitle?: string;
   align?: "left" | "center";
+  id?: string;
 }
 
-export function SectionHeader({ badge, title, subtitle, align = "left" }: SectionHeaderProps) {
+export function SectionHeader({ badge, title, subtitle, align = "left", id }: SectionHeaderProps) {
   const alignClasses = {
     left: "text-left",
     center: "text-center mx-auto max-w-3xl",
   };
 
   return (
-    <div className={`space-y-3 ${alignClasses[align]}`}>
-      <Badge className="bg-teal-50 text-teal-700 border-teal-100 hover:bg-teal-100 inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium">
+    <div className={`space-y-3 ${alignClasses[align]}`} data-reveal>
+      <Badge className="inline-flex items-center gap-1.5 border-teal-100 bg-teal-50 px-3 py-1.5 text-sm font-medium text-teal-700 hover:bg-teal-100">
         {badge}
       </Badge>
-      <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-slate-900 tracking-tight leading-tight">
+      <h2
+        id={id}
+        className="text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl"
+      >
         {title}
       </h2>
       {subtitle && (
-        <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
+        <p className="max-w-2xl text-base leading-relaxed text-slate-600 sm:text-lg">
           {subtitle}
         </p>
       )}

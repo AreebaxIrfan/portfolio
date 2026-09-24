@@ -13,15 +13,16 @@ const inter = Inter({
   preload: true,
 });
 
-const baseUrl = "https://areebairfan.com";
+const baseUrl = "https://areebaxirfan.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "Areeba Irfan | Full Stack Developer & AI Engineer",
+    default: "Areeba Irfan | AI & Full-Stack Developer, GIAIC Coordinator",
     template: "%s | Areeba Irfan",
   },
-  description: "Full Stack Developer & AI Engineer specializing in React, Next.js, Python, and AI automation. Building production-grade applications with 3+ years of experience. Open to opportunities.",
+  description:
+    "Associate Degree in Computer Science student, AI & Full-Stack Developer, GIAIC Coordinator, and IT Instructor. Building AI and full-stack projects with React, Next.js, and Python. Open to opportunities.",
   keywords: [
     "full stack developer",
     "web developer",
@@ -38,6 +39,8 @@ export const metadata: Metadata = {
     "openai",
     "gemini ai",
     "agentic ai",
+    "giaic coordinator",
+    "associate degree computer science",
   ],
   authors: [{ name: "Areeba Irfan" }],
   creator: "Areeba Irfan",
@@ -58,22 +61,24 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: baseUrl,
     siteName: "Areeba Irfan | Portfolio",
-    title: "Areeba Irfan | Full Stack Developer & AI Engineer",
-    description: "Full Stack Developer & AI Engineer specializing in React, Next.js, Python, and AI automation. Building production-grade applications with 3+ years of experience.",
+    title: "Areeba Irfan | AI & Full-Stack Developer, GIAIC Coordinator",
+    description:
+      "Associate Degree in Computer Science student, AI & Full-Stack Developer, GIAIC Coordinator, and IT Instructor. Building AI and full-stack projects with React, Next.js, and Python.",
     images: [
       {
         url: "/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "Areeba Irfan - Full Stack Developer Portfolio",
+        alt: "Areeba Irfan - AI & Full-Stack Developer Portfolio",
         type: "image/svg+xml",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Areeba Irfan | Full Stack Developer & AI Engineer",
-    description: "Full Stack Developer & AI Engineer specializing in React, Next.js, Python, and AI automation.",
+    title: "Areeba Irfan | AI & Full-Stack Developer, GIAIC Coordinator",
+    description:
+      "Associate Degree in Computer Science student, AI & Full-Stack Developer, GIAIC Coordinator, and IT Instructor.",
     creator: "@areebaXirfan",
     images: ["/og-image.svg"],
   },
@@ -105,11 +110,7 @@ const structuredData = {
     "https://www.facebook.com/AreebaxIrfan/",
     "https://medium.com/@areebaxirfan",
   ],
-  jobTitle: "Full Stack Developer & AI Engineer",
-  worksFor: {
-    "@type": "Organization",
-    name: "Freelance",
-  },
+  jobTitle: "AI & Full-Stack Developer",
   knowsAbout: [
     "React",
     "Next.js",
@@ -124,7 +125,8 @@ const structuredData = {
     "Full Stack Development",
     "API Development",
   ],
-  description: "Full Stack Developer & AI Engineer specializing in React, Next.js, Python, and AI automation. Building production-grade applications with 3+ years of experience.",
+  description:
+    "Associate Degree in Computer Science student, AI & Full-Stack Developer, GIAIC Coordinator, and IT Instructor building AI and full-stack projects.",
   knowsLanguage: ["English", "Urdu"],
 };
 

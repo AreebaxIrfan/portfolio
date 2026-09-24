@@ -2,15 +2,20 @@ import { ArrowRight, MapPin } from "lucide-react";
 import { RESUME_DATA } from "@/data/resume-data";
 import { motion } from "framer-motion";
 
+const highlightGradients = [
+  "from-emerald-500 to-teal-500",
+  "from-violet-500 to-purple-500",
+  "from-amber-500 to-orange-500",
+  "from-rose-500 to-pink-500",
+  "from-sky-500 to-blue-500",
+  "from-teal-500 to-cyan-500",
+];
+
 export function HeroSection() {
-  const highlights = [
-    { title: "Experience", description: "3+ years", icon: "💼", gradient: "from-emerald-500 to-teal-500" },
-    { title: "Projects", description: "30+ built", icon: "🚀", gradient: "from-violet-500 to-purple-500" },
-    { title: "Hackathons", description: "3+ attended", icon: "🏆", gradient: "from-amber-500 to-orange-500" },
-    { title: "Mentoring", description: "50+ peers helped", icon: "🤝", gradient: "from-rose-500 to-pink-500" },
-    { title: "Languages", description: "English, Urdu", icon: "🗣️", gradient: "from-sky-500 to-blue-500" },
-    { title: "Passion", description: "Code, Write, Learn", icon: "🎓", gradient: "from-teal-500 to-cyan-500" },
-  ];
+  const highlights = RESUME_DATA.keyHighlights.map((highlight, index) => ({
+    ...highlight,
+    gradient: highlightGradients[index % highlightGradients.length],
+  }));
 
   return (
     <section id="about" className="relative py-10 sm:py-14 lg:py-20 overflow-hidden" aria-labelledby="about-heading">

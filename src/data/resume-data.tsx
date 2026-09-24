@@ -46,9 +46,14 @@ export interface ResumeData {
   experience: Array<{
     company: string;
     role: string;
-    start: string;
-    end: string;
+    start?: string;
+    end?: string;
     description: string;
+  }>;
+  startups: Array<{
+    name: string;
+    role: string;
+    description?: string;
   }>;
   achievements: Array<{
     title: string;
@@ -73,9 +78,9 @@ export const RESUME_DATA: ResumeData = {
   initials: "AI",
   location: "Based in Karachi, Pakistan",
   locationLink: "https://www.google.com/maps/place/Karachi,+Pakistan",
-  about: "Full-stack. Backend. AI automation.",
+  about: "AI & Full-Stack Developer. GIAIC Coordinator. IT Instructor. Startup & product builder.",
   summary:
-    "I build systems that think. Full-stack and backend developer with 3+ years of experience, specializing in Python and AI automation — turning complex problems into clean, scalable, production-grade solutions. Currently sharpening my edge in Computer Science and AI, and actively contributing to open-source.",
+    "Associate Degree in Computer Science student at Virtual University with AI-focused training at GIAIC, where I also serve as a GIAIC Coordinator. Started my technology journey in 2023 and entered the professional tech space in August 2024. I build AI and full-stack projects, teach beginner students in technology and AI, and focus on growing my own software/SaaS products.",
   avatarUrl: "/areebairfan.png",
   personalWebsiteUrl: "https://areebaxirfan.vercel.app/",
   contact: {
@@ -138,25 +143,56 @@ export const RESUME_DATA: ResumeData = {
   ],
   experience: [
     {
-      company: "Glove",
-      role: "Founder & Developer",
-      start: "2025",
-      end: "Present",
-      description: "Developed an AI-based skin and eye scanner MVP that analyzes images to detect issues and recommend products. Built with Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, and auth. Focused on MVP launch, user feedback, and iteration.",
+      company: "GIAIC",
+      role: "GIAIC Coordinator",
+      description:
+        "Helping coordinate activities and supporting peers with technical learning and projects.",
     },
     {
-      company: "HireX",
-      role: "Founder & Developer",
-      start: "2025",
-      end: "Present",
-      description: "Created an AI-powered resume analyzer MVP (experiment) that evaluates CVs and provides recommendations. Tech: Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, auth. Launched in 7 days; learned from no paid users in 30 days – validate demand first, fast launches > perfect code, unlocked Stripe + AI skills.",
+      company: "Independent",
+      role: "IT Instructor",
+      description:
+        "Teaching beginner students in technology and AI while supporting peers with technical learning and projects.",
+    },
+  ],
+  startups: [
+    {
+      name: "AIFLEX",
+      role: "Co-Founder",
     },
     {
-      company: "Mindvex",
-      role: "Founder & Developer",
-      start: "2025",
-      end: "Present",
-      description: "Built an AI study assistant MVP for summaries, key points, and quizzes. Used Next.js, Tailwind CSS, Google Gemini AI, Shadcn UI, and auth. Emphasized quick prototyping and user-centric features.",
+      name: "HireX",
+      role: "Co-Founder",
+      description:
+        "AI-powered resume analyzer product that evaluates CVs and gives recommendations for job seekers.",
+    },
+    {
+      name: "Mindvex",
+      role: "Founder / Independent Startup Project",
+      description:
+        "AI-powered study assistant that generates summaries, key points, and quizzes.",
+    },
+    {
+      name: "Glove",
+      role: "Founder / Independent Startup Project",
+      description:
+        "AI-based skin and eye scanner that analyzes uploaded images to detect potential issues.",
+    },
+    {
+      name: "GlowUpScanner",
+      role: "Founder / Independent Startup Project",
+    },
+    {
+      name: "Ryrox",
+      role: "Founder / Independent Startup Project",
+      description:
+        "Brand-focused landing page/product exploring product identity and web design.",
+    },
+    {
+      name: "Zyntra",
+      role: "Founder / Independent Startup Project",
+      description:
+        "SaaS-inspired product concept exploring polished user journeys and product design.",
     },
   ],
   achievements: [
@@ -194,8 +230,8 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      title: "1$ Dollar Win Recognition",
-      description: "Successfully completed a challenging project that earned recognition and a symbolic $1 prize.",
+      title: "$1 Dollar Win Recognition (2-Time Winner)",
+      description: "Received the $1 Dollar Win recognition twice for successfully converting Figma designs into Next.js implementations.",
       by: "Sir Asharib Ali (Lead Teacher GIAIC)",
       reference: [
         {
@@ -203,7 +239,7 @@ export const RESUME_DATA: ResumeData = {
           url: "#",
         },
       ],
-      },
+    },
     {
       title: "Startup Challenge",
       description: "Participated in the Startup Challenge",
@@ -216,10 +252,10 @@ export const RESUME_DATA: ResumeData = {
       ],
     },
     {
-      title: "Participated in 3+ Hackathons",
-      description: "Participated in multiple hackathons, showcasing skills in coding, problem-solving",
+      title: "Hackathon & Challenge Projects",
+      description:
+        "Identifiable challenge work: E-commerce Website (Frontend), E-commerce Website (Full Stack), Hackathon-I — Create a Textbook for Teaching Physical AI / Humanoid Robotics, and Hackathon-II.",
       by: "Sir Ameen Alam (Dean of Faculty GIAIC)",
-
       reference: [
         {
           name: "Reference",
@@ -237,6 +273,14 @@ export const RESUME_DATA: ResumeData = {
     "TailwindCSS",
     "Python",
     "FastAPI",
+    "Flask",
+    "PostgreSQL",
+    "Docker",
+    "RAG",
+    "Qdrant",
+    "Redis",
+    "Celery",
+    "AI/LLM Integrations",
     "API Development",
     "Full-stack Development",
     "Tech Teaching",
@@ -368,7 +412,7 @@ export const RESUME_DATA: ResumeData = {
       title: "HireX – AI Resume Scanner (MVP Experiment)",
       techStack: ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
       description:
-        "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers. Built in 7 days; launched with Stripe payments and AI parsing. No paid users in 30 days – learned to validate demand before coding, fast launches over perfect code, and unlocked real Stripe + AI skills.",
+        "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers. Built as a 7-day MVP experiment with Stripe payments and AI parsing, focusing on fast launches and early validation.",
       link: {
         label: "vercel",
         href: "https://hire-x-mvp.vercel.app/"
@@ -488,7 +532,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Agentia_World",
       techStack: ["Side Project", "Next.js", "TailwindCSS", "TypeScript", "Shadcn UI"],
       description:
-        "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and dynamic content management.",
+        "A website for Agentia World presenting enterprise AI agents — featuring capabilities, AI solutions, pricing, and contact sections — built with Next.js and Tailwind CSS.",
       link: {
         label: "Website Link",
         href: "https://agentia-world-chi.vercel.app/",
@@ -551,7 +595,7 @@ export const RESUME_DATA: ResumeData = {
         "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       link: {
         label: "Vercel",
-        href: "https://areebairfan.vercel.app/",
+        href: "https://areebaxirfan.vercel.app/",
       },
     },
     {
@@ -608,7 +652,7 @@ export const RESUME_DATA: ResumeData = {
       title: "Music Course Website",
       techStack: ["Side Project", "Next.js", "Frontend"],
       description:
-        "A website for music courses, featuring a responsive design and interactive elements built with Next.js.",
+        "A music course website featuring guitar, vocal, and music production courses with individual course pages, testimonials, and instructor sections, built with Next.js.",
       link: {
         label: "Website Link",
         href: "https://music-course-web.vercel.app/",
@@ -678,7 +722,7 @@ export const RESUME_DATA: ResumeData = {
   keyHighlights: [
     {
       title: "Experience",
-      description: "3+ years in tech industry",
+      description: "Started 2023 · Professional Aug 2024",
       icon: "💼",
     },
     {
@@ -687,8 +731,8 @@ export const RESUME_DATA: ResumeData = {
       icon: "🚀",
     },
     {
-      title: "Hackathons",
-      description: "Participated in 3+ hackathons",
+      title: "Hackathons & Challenges",
+      description: "Hackathon-I & II + e-commerce builds",
       icon: "🏆",
     },
     {

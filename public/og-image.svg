@@ -48,19 +48,19 @@
 
     <!-- Title -->
     <text x="0" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="500" fill="url(#accentGrad)">
-      Full Stack Developer & AI Engineer
+      AI &amp; Full-Stack Developer
     </text>
 
     <!-- Description -->
     <text x="0" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="400" fill="rgba(255,255,255,0.7)" width="500">
-      Building production-grade applications with React, Next.js, Python & AI automation
+      GIAIC Coordinator · IT Instructor · Building AI &amp; full-stack projects
     </text>
 
     <!-- Stats -->
     <g transform="translate(0, 220)">
       <g className="stat" transform="translate(0, 0)">
-        <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">3+</text>
-        <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.6)">Years Experience</text>
+        <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">2023</text>
+        <text x="0" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="400" fill="rgba(255,255,255,0.6)">Started Tech Journey</text>
       </g>
       <g className="stat" transform="translate(180, 0)">
         <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="700" fill="white">30+</text>
@@ -133,6 +133,6 @@
 
   <!-- Bottom branding -->
   <text x="600" y="600" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="500" fill="rgba(255,255,255,0.4)" text-anchor="middle">
-    areebairfan.com • Open to opportunities
+    areebaxirfan.vercel.app • Open to opportunities
   </text>
 </svg>

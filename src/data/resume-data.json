@@ -3,8 +3,8 @@
   "initials": "AI",
   "location": "Based in Karachi, Pakistan pk",
   "locationLink": "https://www.google.com/maps/place/pakistan/karachi",
-  "about": "Creative Full Stack Developer. Tech Enthusiast.UI and UX Expert . Problem Solver. 💻",
-  "summary": "I specialize in building accessible, user-friendly web applications with over a year of tech experience. Passionate about solving real-world problems, I create clean, efficient, and scalable code. Currently studying Computer Science and AI, I contribute to open-source and engage in coding challenges.",
+  "about": "AI & Full-Stack Developer. GIAIC Coordinator. IT Instructor. Startup & product builder. 💻",
+  "summary": "Associate Degree in Computer Science student at Virtual University with AI-focused training at GIAIC, where I also serve as a GIAIC Coordinator. Started my technology journey in 2023 and entered the professional tech space in August 2024. I build AI and full-stack projects, teach beginner students in technology and AI, and focus on growing my own software/SaaS products.",
   "avatarUrl": "/areebairfan.png",
   "personalWebsiteUrl": "https://areebaxirfan.vercel.app/",
   "contact": {
@@ -61,25 +61,49 @@
   ],
   "experience": [
     {
-      "company": "Mindvex",
-      "position": "UI/UX Engineer",
-      "start": "Jan 2024",
-      "end": "Present",
-      "description": "Designed component libraries, improved accessibility, and collaborated on user-centric designs for web applications."
+      "company": "GIAIC",
+      "position": "GIAIC Coordinator",
+      "description": "Helping coordinate activities and supporting peers with technical learning and projects."
     },
     {
-      "company": "Hirex",
-      "position": "Full Stack Developer",
-      "start": "Jul 2023",
-      "end": "Dec 2023",
-      "description": "Developed RESTful APIs, managed databases, and deployed applications on cloud platforms like AWS."
+      "company": "Independent",
+      "position": "IT Instructor",
+      "description": "Teaching beginner students in technology and AI while supporting peers with technical learning and projects."
+    }
+  ],
+  "startups": [
+    {
+      "name": "AIFLEX",
+      "role": "Co-Founder"
     },
     {
-      "company": "Glove",
-      "position": "Frontend Developer",
-      "start": "Jan 2023",
-      "end": "Jun 2023",
-      "description": "Built responsive user interfaces using React and TypeScript, focusing on performance optimization and user experience."
+      "name": "HireX",
+      "role": "Co-Founder",
+      "description": "AI-powered resume analyzer product that evaluates CVs and gives recommendations for job seekers."
+    },
+    {
+      "name": "Mindvex",
+      "role": "Founder / Independent Startup Project",
+      "description": "AI-powered study assistant that generates summaries, key points, and quizzes."
+    },
+    {
+      "name": "Glove",
+      "role": "Founder / Independent Startup Project",
+      "description": "AI-based skin and eye scanner that analyzes uploaded images to detect potential issues."
+    },
+    {
+      "name": "GlowUpScanner",
+      "role": "Founder / Independent Startup Project"
+    },
+    {
+      "name": "Ryrox",
+      "role": "Founder / Independent Startup Project",
+      "description": "Brand-focused landing page/product exploring product identity and web design."
+    },
+    {
+      "name": "Zyntra",
+      "role": "Founder / Independent Startup Project",
+      "description": "SaaS-inspired product concept exploring polished user journeys and product design."
     }
   ],
   "achievements": [
@@ -114,8 +138,9 @@
       ]
     },
     {
-      "title": "1$ Dollar Win Recognition (2-Time Winner)",
+      "title": "$1 Dollar Win Recognition (2-Time Winner)",
       "by": "By: Sir Asharib Ali (Lead Teacher GIAIC)",
+      "description": "Received the $1 Dollar Win recognition twice for successfully converting Figma designs into Next.js implementations.",
       "reference": [
         {
           "name": "👉 Reference",
@@ -124,8 +149,9 @@
       ]
     },
     {
-      "title": "Participated in 3+ Hackathons",
+      "title": "Hackathon & Challenge Projects",
       "by": "By: Sir Ameeen Alam (Dean of Faculty GIAIC)",
+      "description": "Identifiable challenge work: E-commerce Website (Frontend), E-commerce Website (Full Stack), Hackathon-I — Create a Textbook for Teaching Physical AI / Humanoid Robotics, and Hackathon-II.",
       "reference": [
         {
           "name": "👉 Reference",
@@ -143,6 +169,14 @@
     "Tailwind CSS",
     "Python",
     "FastAPI",
+    "Flask",
+    "PostgreSQL",
+    "Docker",
+    "RAG",
+    "Qdrant",
+    "Redis",
+    "Celery",
+    "AI/LLM Integrations",
     "API Development",
     "Full Stack Development",
     "Tech Teaching",
@@ -262,8 +296,8 @@
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
       "description": "An AI-powered study assistant that generates accurate summaries, key points, and topic-based quizzes. Users can enter any topic or even a single keyword to instantly get structured learning material.",
       "link": {
-        "label": "github.com",
-        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+        "label": "vercel",
+        "href": "https://mindvex.vercel.app/"
       }
     },
     {
@@ -271,8 +305,8 @@
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
       "description": "An AI-powered resume analyzer that evaluates CVs, highlights weaknesses, and gives instant professional recommendations for job seekers.",
       "link": {
-        "label": "github.com",
-        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+        "label": "vercel",
+        "href": "https://hire-x-mvp.vercel.app/"
       }
     },
     {
@@ -280,12 +314,12 @@
       "techStack": ["Side Project", "Next.js", "Tailwind-CSS", "Google Gemini AI", "Shadcn UI", "auth"],
       "description": "An AI-based skin and eye scanner that analyzes uploaded images to detect potential issues and recommends suitable medical or skincare products.",
       "link": {
-        "label": "github.com",
-        "href": "https://github.com/AreebaxIrfan/GIAIC_Q3/tree/main/%F0%9F%93%82Class_Assignment/assignment_07"
+        "label": "vercel",
+        "href": "https://glowve.vercel.app/"
       }
     },
     {
-  "title": "Dermateen AI",
+      "title": "Dermateen AI",
   "techStack": [
     "AI Project",
     "Next.js",
@@ -406,8 +440,8 @@
     },
     {
       "title": "Agentia_World",
-      "techStack": ["Side Project", "Next.js", "Sanity CMS", "Full Stack"],
-      "description": "A full-stack e-commerce platform for shoes, featuring a Next.js frontend and Sanity CMS for content management.",
+      "techStack": ["Side Project", "Next.js", "TypeScript", "TailwindCSS", "Shadcn UI"],
+      "description": "A website for Agentia World presenting enterprise AI agents — featuring capabilities, AI solutions, pricing, and contact sections — built with Next.js and Tailwind CSS.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/agentia_world"
@@ -464,7 +498,7 @@
       "description": "A personal portfolio website showcasing projects and skills, built with HTML, CSS, and JavaScript.",
       "link": {
         "label": "github.com",
-        "href": "https://areebairfan.vercel.app/"
+        "href": "https://areebaxirfan.vercel.app/"
       }
     },
     {
@@ -515,7 +549,7 @@
     {
       "title": "Music Course Website",
       "techStack": ["Side Project", "Next.js", "Frontend"],
-      "description": "A web-based resume builder with customizable templates, built using HTML, CSS, and TypeScript.",
+      "description": "A music course website featuring guitar, vocal, and music production courses with individual course pages, testimonials, and instructor sections, built with Next.js.",
       "link": {
         "label": "github.com",
         "href": "https://github.com/AreebaxIrfan/music-course-web"
@@ -579,7 +613,7 @@
   "keyHighlights": [
     {
       "title": "Experience",
-      "description": "1+ years in tech industry",
+      "description": "Started 2023 · Professional Aug 2024",
       "icon": "💼"
     },
     {
@@ -588,8 +622,8 @@
       "icon": "🚀"
     },
     {
-      "title": "Hackathons",
-      "description": "Participated in 3+ hackathons",
+      "title": "Hackathons & Challenges",
+      "description": "Hackathon-I & II + e-commerce builds",
       "icon": "🏆"
     },
     {

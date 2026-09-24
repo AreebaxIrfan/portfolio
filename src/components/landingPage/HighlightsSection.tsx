@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Zap, Bot, Award, Users, BookOpen, Heart } from "lucide-react";
 
 const highlights = [
-  { Icon: Zap, title: "Experience", description: "3+ years building production applications", gradient: "from-emerald-500 to-teal-500", bgGradient: "from-emerald-500/10 to-teal-500/10" },
+  { Icon: Zap, title: "Experience", description: "Started 2023 · Professional Aug 2024", gradient: "from-emerald-500 to-teal-500", bgGradient: "from-emerald-500/10 to-teal-500/10" },
   { Icon: Bot, title: "AI Projects", description: "15+ AI-powered applications deployed", gradient: "from-violet-500 to-purple-500", bgGradient: "from-violet-500/10 to-purple-500/10" },
-  { Icon: Award, title: "Hackathons", description: "3+ hackathons participated & awarded", gradient: "from-amber-500 to-orange-500", bgGradient: "from-amber-500/10 to-orange-500/10" },
+  { Icon: Award, title: "Hackathons & Challenges", description: "Hackathon-I & II + e-commerce builds", gradient: "from-amber-500 to-orange-500", bgGradient: "from-amber-500/10 to-orange-500/10" },
   { Icon: Users, title: "Mentoring", description: "Helped 50+ peers with coding fundamentals", gradient: "from-rose-500 to-pink-500", bgGradient: "from-rose-500/10 to-pink-500/10" },
   { Icon: BookOpen, title: "Learning", description: "100+ days of continuous coding practice", gradient: "from-sky-500 to-blue-500", bgGradient: "from-sky-500/10 to-blue-500/10" },
   { Icon: Heart, title: "Open Source", description: "Active contributor to community projects", gradient: "from-teal-500 to-cyan-500", bgGradient: "from-teal-500/10 to-cyan-500/10" },

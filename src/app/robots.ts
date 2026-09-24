@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/private/", "/api/"],
     },
-    sitemap: "https://areebairfan.com/sitemap.xml",
-    host: "https://areebairfan.com",
+    sitemap: "https://areebaxirfan.vercel.app/sitemap.xml",
+    host: "https://areebaxirfan.vercel.app",
   };
 }
